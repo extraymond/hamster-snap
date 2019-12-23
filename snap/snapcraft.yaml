@@ -29,10 +29,6 @@ slots:
     interface: dbus
     bus: session
     name: org.gnome.Hamster.WindowServer
-  gconf-service:
-    interface: dbus
-    bus: session
-    name: org.gnome.GConf.Server
 
 parts:
   hamster:
@@ -73,4 +69,3 @@ apps:
     slots:
       - dbus-service
       - dbus-windows-service
-      - gconf-service
