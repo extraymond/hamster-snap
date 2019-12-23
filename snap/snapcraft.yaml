@@ -10,7 +10,7 @@ architectures:
     run-on: all
 
 grade: devel # must be 'stable' to release into candidate/stable channels
-confinement: devmode # use 'strict' once you have the right plugs and slots
+confinement: strict # use 'strict' once you have the right plugs and slots
 
 layout:
   /usr/share/hamster:
@@ -20,6 +20,19 @@ layout:
   /usr/lib/python3/dist-packages:
     bind: $SNAP/usr/lib/python3/dist-packages
 
+slots:
+  dbus-service:
+    interface: dbus
+    bus: session
+    name: org.gnome.Hamster
+  dbus-windows-service:
+    interface: dbus
+    bus: session
+    name: org.gnome.Hamster.WindowServer
+  gconf-service:
+    interface: dbus
+    bus: session
+    name: org.gnome.GConf.Server
 
 parts:
   hamster:
@@ -35,7 +48,10 @@ parts:
       - gconf2
       - gir1.2-gconf-2.0
       - dconf-cli
-    source: https://github.com/projecthamster/hamster.git
+    # source: https://github.com/projecthamster/hamster.git
+    source: https://github.com/bgamari/hamster.git
+    source-branch: gsettings
+
     plugin: waf
   lancher:
     after: [ hamster ]
@@ -51,5 +67,10 @@ apps:
     extensions: [gnome-3-28]
     desktop: usr/share/applications/launcher.desktop
     plugs:
-      - gsettings # For desktop theme detection under Wayland session
+      - gsettings
       - home
+      - system-observe
+    slots:
+      - dbus-service
+      - dbus-windows-service
+      - gconf-service
