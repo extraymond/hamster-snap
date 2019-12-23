@@ -1,0 +1,5 @@
+DATA_DIR = "/usr/share"
+LIB_DIR = "/usr/lib"
+VERSION = "2.0"
+PACKAGE = "hamster"
+PYTHONDIR = "/usr/lib/python3/dist-packages"

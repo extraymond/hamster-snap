@@ -1,0 +1,2778 @@
+<gconfschemafile>
+    <schemalist>
+        <schema>
+            <key>/schemas/apps/hamster/enable_timeout</key>
+            <applyto>/apps/hamster/enable_timeout</applyto>
+            <owner>hamster</owner>
+            <type>bool</type>
+            <default>true</default>
+            <locale name="C">
+                <short>Stop tracking on idle</short>
+                <long>
+                    Stop tracking current activity when computer becomes idle
+                </long>
+            </locale>
+
+            <locale name="af">
+                <short>Staak registrasie wanneer ledig</short>
+                <long>Staak registrasie van huidige taak wanneer die rekenaar ledig word</long>
+            </locale>
+
+            <locale name="ar">
+                <short>أوقف التتبع عند الخمول</short>
+                <long>أوقف تتبع النشاط الحالي عندما يصبح الحاسوب خاملًا</long>
+            </locale>
+
+            <locale name="as">
+                <short>কামহীন অৱস্থাত বৰ্তমান কামৰ নিৰীক্ষণ বন্ধ কৰা হ&apos;ব</short>
+                <long>কম্পিউটাৰ কামহীন অৱস্থাত হ&apos;লে বৰ্তমান কামৰ নিৰীক্ষণ বন্ধ কৰা হ&apos;ব</long>
+            </locale>
+
+            <locale name="be">
+                <short>Спыніць адсочванне ў стане бяздзейнасці</short>
+                <long>Спыніць адсочванне бягучага занятку, калі камп&apos;ютар становіцца бяздзейным</long>
+            </locale>
+
+            <locale name="bg">
+                <short>Преустановяване на отчитането при бездействие</short>
+                <long>Преустановяване на отчитането на текущата дейност, когато компютърът бездейства</long>
+            </locale>
+
+            <locale name="bn">
+                <short>কর্মহীন অবস্থায় বর্তমান কাজে নিরীক্ষণ বন্ধ করা হবে</short>
+                <long>কম্পিউটার কর্মহীন অবস্থায় হলে বর্তমান কর্মের নিরীক্ষণ বন্ধ করা হবে</long>
+            </locale>
+
+            <locale name="bn_IN">
+                <short>কর্মহীন অবস্থায় বর্তমান কর্মের নিরীক্ষণ বন্ধ করা হবে</short>
+                <long>কম্পিউটার কর্মহীন অবস্থায় হলে বর্তমান কর্মের নিরীক্ষণ বন্ধ করা হবে</long>
+            </locale>
+
+            <locale name="ca">
+                <short>Para de comptar quan l&apos;ordinador estigui inactiu</short>
+                <long>Para de comptar l&apos;activitat actual quan l&apos;ordinador estigui inactiu</long>
+            </locale>
+
+            <locale name="ca@valencia">
+                <short>Para de comptar quan l&apos;ordinador estiga inactiu</short>
+                <long>Para de comptar l&apos;activitat actual quan l&apos;ordinador estiga inactiu</long>
+            </locale>
+
+            <locale name="cs">
+                <short>Zastavit sledování při nečinnosti</short>
+                <long>Zastavit sledování aktuální činnosti při nečinnosti počítače</long>
+            </locale>
+
+            <locale name="da">
+                <short>Stop måling ved inaktivitet</short>
+                <long>Stop måling af den aktuelle aktivitet når computeren er inaktiv</long>
+            </locale>
+
+            <locale name="de">
+                <short>Erfassung bei Untätigkeit anhalten</short>
+                <long>Wenn sich der Rechner im Leerlauf befindet, die momentane Tätigkeit nicht weiter erfassen</long>
+            </locale>
+
+            <locale name="el">
+                <short>Διακοπή καταγραφής κατά την αδρανοποίηση</short>
+                <long>Διακοπή καταγραφής παρούσας δραστηριότητας, όταν ο υπολογιστής βρίσκεται σε αδράνεια</long>
+            </locale>
+
+            <locale name="en@shaw">
+                <short>𐑕𐑑𐑪𐑐 𐑑𐑮𐑨𐑒𐑦𐑙 𐑪𐑯 𐑲𐑛𐑩𐑤</short>
+                <long>𐑕𐑑𐑪𐑐 𐑑𐑮𐑨𐑒𐑦𐑙 𐑒𐑳𐑮𐑩𐑯𐑑 𐑨𐑒𐑑𐑦𐑝𐑦𐑑𐑦 𐑢𐑧𐑯 𐑒𐑩𐑥𐑐𐑿𐑑𐑼 𐑚𐑦𐑒𐑳𐑥𐑟 𐑲𐑛𐑩𐑤</long>
+            </locale>
+
+            <locale name="en_CA">
+                <short>Stop tracking on idle</short>
+                <long>Stop tracking current activity when computer becomes idle</long>
+            </locale>
+
+            <locale name="en_GB">
+                <short>Stop tracking on idle</short>
+                <long>Stop tracking current activity when computer becomes idle</long>
+            </locale>
+
+            <locale name="eo">
+                <short>Ĉesi ŝanĝospuri kiam la komputilo estas senaga</short>
+                <long>Ĉesi ŝanĝospuri la aktualan aktivecon kiam la komputilo fariĝas senaga</long>
+            </locale>
+
+            <locale name="es">
+                <short>Detener el registro en inactividad</short>
+                <long>Parar la actividad actual cuando el ordenador esté inactivo</long>
+            </locale>
+
+            <locale name="et">
+                <short>Jõudeolekul lõpetatakse jälgimine</short>
+                <long>Jooksva tegevuse jälgimine lõpetatakse arvuti jõudeolekul</long>
+            </locale>
+
+            <locale name="eu">
+                <short>Gelditu jarraipena inaktibo jartzean</short>
+                <long>Gelditu uneko jardueraren jarraipena ordenagailua inaktibo jartzean</long>
+            </locale>
+
+            <locale name="fi">
+                <short>Pysäytä seuranta joutenollessa</short>
+                <long>Pysäytä nykyisen toimen seuranta, kun tietokone on jouten</long>
+            </locale>
+
+            <locale name="fr">
+                <short>Arrêter le suivi en cas d&apos;inactivité</short>
+                <long>Arrêter le suivi de l&apos;activité en cours quand l&apos;ordinateur devient inactif</long>
+            </locale>
+
+            <locale name="gl">
+                <short>Deter o rexistro en inactividade</short>
+                <long>Deter a actividade actual cando o computador estea inactivo</long>
+            </locale>
+
+            <locale name="gu">
+                <short>નિષ્ક્રિય પર શોધવાનું બંધ કરો</short>
+                <long>જ્યારે કમ્પ્યુટર નિષ્ક્રિય બનેલ હોય ત્યારે, હાલની પ્રવૃત્તિ શોધવાનું બંધ કરો</long>
+            </locale>
+
+            <locale name="he">
+                <short>Stop tracking on idle</short>
+                <long>Stop tracking current activity when computer becomes idle</long>
+            </locale>
+
+            <locale name="hi">
+                <short>निष्क्रिय होने पर ट्रैकिंग रोकें</short>
+                <long>कंप्यूटर निष्क्रिय होने पर मौजूदा गतिविधि की ट्रैकिंग रोकें</long>
+            </locale>
+
+            <locale name="hu">
+                <short>Nyilvántartás befejezése üresjáratban</short>
+                <long>Az aktuális tevékenység nyilvántartásának befejezése a számítógép üresjáratában</long>
+            </locale>
+
+            <locale name="id">
+                <short>Berhenti melacak saat menganggur</short>
+                <long>Berhenti melacak aktivitas ketika komputer menganggur</long>
+            </locale>
+
+            <locale name="it">
+                <short>Ferma il conteggio quando inattivo</short>
+                <long>Ferma il conteggio dell&apos;attività corrente quando il computer diventa inattivo</long>
+            </locale>
+
+            <locale name="ja">
+                <short>アイドル時に記録を停止する</short>
+                <long>コンピューターがアイドル状態になったら活動の記録を停止する</long>
+            </locale>
+
+            <locale name="kn">
+                <short>ಜಡಗೊಂಡಾಗ ಟ್ರ್ಯಾಕಿಂಗ್ ಅನ್ನು ನಿಲ್ಲಿಸು</short>
+                <long>ಗಣಕವು ಜಡಗೊಂಡಾಗ ಪ್ರಸಕ್ತ ಟ್ರ್ಯಾಕಿಂಗ್ ಚಟುವಟಿಕೆಯನ್ನು ನಿಲ್ಲಿಸು</long>
+            </locale>
+
+            <locale name="ko">
+                <short>절전 상태에 추적 중지</short>
+                <long>컴퓨터가 절전 상태가 되면 현재 활동의 추적을 중지합니다</long>
+            </locale>
+
+            <locale name="lt">
+                <short>Sustabdyti sekimą, kai kompiuteris nenaudojamas</short>
+                <long>Sustabdyti esamo užsiėmimo sekimą, kai kompiuteris nenaudojamas</long>
+            </locale>
+
+            <locale name="lv">
+                <short>Pārtraukt uzskaiti dīkstāves laikā</short>
+                <long>Pārtraukt pašreizējās darbības uzskaiti, kad dators netiek lietots</long>
+            </locale>
+
+            <locale name="mk">
+                <short>Престани да следиш при неактивност</short>
+                <long>Престани да ја следиш тековната активност кога компјутерот е неактивен</long>
+            </locale>
+
+            <locale name="ml">
+                <short>വെറുതെയിരിക്കുമ്പോള്‍ നിരീക്ഷണം നിര്‍ത്തുക</short>
+                <long>കമ്പ്യൂട്ടര്‍ വെറുതെയിരിക്കുമ്പോള്‍ ആ സമയത്തു് നടക്കുന്ന പ്രവര്‍ത്തനങ്ങളുടെ നിരീക്ഷണം നിര്‍ത്തുക</long>
+            </locale>
+
+            <locale name="mr">
+                <short>रिकामे असल्यावर मार्गनिर्देशन थांबवा</short>
+                <long>संगणक रिकामे झाल्यावर सध्याच्या क्रियाचे नीयंत्रण थांबवा</long>
+            </locale>
+
+            <locale name="nb">
+                <short>Stopp sporing når datamaskinen ikke er i bruk</short>
+                <long>Stopp sporing av nåværende aktivitet når datamaskinen er inaktiv</long>
+            </locale>
+
+            <locale name="nl">
+                <short>Registratie stoppen bij computerinactiviteit</short>
+                
+            </locale>
+
+            <locale name="or">
+                <short>ନିଷ୍କ୍ରିୟ ହେବା ମାତ୍ରେ ଅନୁସରଣକୁ ବିରାମ ଦିଅନ୍ତୁ</short>
+                <long>କମ୍ପ୍ଯୁଟର ନିଷ୍କ୍ରିୟ ହେବା ମାତ୍ରେ ଅନୁସରଣକୁ ବିରାମ ଦିଅନ୍ତୁ</long>
+            </locale>
+
+            <locale name="pa">
+                <short>ਵੇਹਲਾ ਹੋਵੇ ਤਾਂ ਟਰੈਕਿੰਗ ਰੋਕੋ</short>
+                <long>ਜਦੋਂ ਕੰਪਿਊਟਰ ਵੇਹਲਾ ਹੋਵੇ ਤਾਂ ਮੌਜੂਦਾ ਸਰਗਰਮੀ ਲਈ ਟਰੈਕਿੰਗ ਰੋਕੋ</long>
+            </locale>
+
+            <locale name="pl">
+                <short>Zatrzymanie czasu podczas bezczynności</short>
+                <long>Zatrzymanie śledzenia bieżącej czynności podczas bezczynności komputera</long>
+            </locale>
+
+            <locale name="pt">
+                <short>Parar de registar ao ficar inactivo</short>
+                <long>Parar de registar a actividade actual quando o computador ficar inactivo</long>
+            </locale>
+
+            <locale name="pt_BR">
+                <short>Para de registrar quando ocioso</short>
+                <long>Para o registro da atividade atual, quando o computador estiver ocioso</long>
+            </locale>
+
+            <locale name="ro">
+                <short>Oprește pontarea în inactivitate</short>
+                <long>Oprește pontarea activității curente când calculatorul devine inactiv</long>
+            </locale>
+
+            <locale name="ru">
+                <short>Прекращать учёт при бездействии</short>
+                <long>Прекращать учёт текущего занятия при бездействии компьютера</long>
+            </locale>
+
+            <locale name="sl">
+                <short>Zaustavi sledenje ob nedejavnosti</short>
+                <long>Zaustavi sledenje trenutne dejavnosti, kadar računalnik ni dejaven</long>
+            </locale>
+
+            <locale name="sq">
+                <short>Ndalo numërimin kur jo aktiv</short>
+                
+            </locale>
+
+            <locale name="sr">
+                <short>Заустави праћење када нема активности</short>
+                <long>Заустави праћење текуће активности, када рачунар постане неупослен</long>
+            </locale>
+
+            <locale name="sr@latin">
+                <short>Zaustavi praćenje kada nema aktivnosti</short>
+                <long>Zaustavi praćenje tekuće aktivnosti, kada računar postane neuposlen</long>
+            </locale>
+
+            <locale name="sv">
+                <short>Stoppa tidmätning vid inaktivitet</short>
+                <long>Stoppa tidmätning av aktuell aktivitet när datorn blir overksam</long>
+            </locale>
+
+            <locale name="ta">
+                <short>இயக்கமற்ற நிலையில் தடத்தொடர்தல்  நிறுத்தவும்</short>
+                <long>கணினி வெறுமையாக இருக்கும் போது தற்போதைய செயல்பாட்டுத் தடத்தொடர்தல்  நிறுத்தவும்</long>
+            </locale>
+
+            <locale name="te">
+                <short>నిష్క్రియగా ఉన్నప్పుడు జాడతీయకు</short>
+                <long>కంప్యూటర్ నిష్క్రియగా ఉన్నప్పుడు, ప్రస్తుత కార్యాన్ని జాడతీయకు</long>
+            </locale>
+
+            <locale name="th">
+                <short>หยุดติดตามเมื่อไม่มีการโต้ตอบกับเครื่อง</short>
+                
+            </locale>
+
+            <locale name="tr">
+                <short>Beklemede takibi durdur</short>
+                <long>Bilgisayar boşta olduğunda mevcut etkinliği takip etmeyi durdur</long>
+            </locale>
+
+            <locale name="ug">
+                <short>بىكار بولغاندا ئىزلاشنى توختات</short>
+                <long>كومپيۇتېر بىكار بولغاندا ھازىرقى پائالىيەتنى ئىزلاشنى توختات</long>
+            </locale>
+
+            <locale name="uk">
+                <short>Припинити стеження при бездіяльності</short>
+                <long>Припинити стеження за поточною дією при бездіяльності комп&apos;ютера</long>
+            </locale>
+
+            <locale name="vi">
+                <short>Đừng theo dõi khi nghỉ</short>
+                
+            </locale>
+
+            <locale name="zh_CN">
+                <short>空闲时停止跟踪</short>
+                <long>当计算机处于空闲时停止跟踪当前活动</long>
+            </locale>
+
+            <locale name="zh_HK">
+                <short>閒置時停止追蹤</short>
+                <long>當電腦為閒置狀態時停止追蹤目前的活動</long>
+            </locale>
+
+            <locale name="zh_TW">
+                <short>閒置時停止追蹤</short>
+                <long>當電腦為閒置狀態時停止追蹤目前的活動</long>
+            </locale>
+        </schema>
+        <schema>
+            <key>/schemas/apps/hamster/stop_on_shutdown</key>
+            <applyto>/apps/hamster/stop_on_shutdown</applyto>
+            <owner>hamster</owner>
+            <type>bool</type>
+            <default>false</default>
+            <locale name="C">
+                <short>Stop tracking on shutdown</short>
+                <long>
+                    Stop tracking current activity on shutdown
+                </long>
+            </locale>
+
+            <locale name="af">
+                <short>Staak registrasie tydens afskakel</short>
+                <long>Staak registrasie van huidige taak wanneer die rekenaar afgeskakel word</long>
+            </locale>
+
+            <locale name="ar">
+                <short>أوقف التتبع عند إيقاف التشغيل</short>
+                <long>أوقف تتبع النشاط الحالي عند إيقاف التشغيل</long>
+            </locale>
+
+            <locale name="as">
+                <short>কম্পিউটাৰ বন্ধ হ&apos;লে ট্ৰেক কৰা বন্ধ কৰক</short>
+                <long>বন্ধ কৰা হ&apos;লে বৰ্তমান কামৰ নিৰীক্ষণ বন্ধ কৰা হ&apos;ব</long>
+            </locale>
+
+            <locale name="be">
+                <short>Спыніць адсочванне пры спыненні працы</short>
+                <long>Спыніць адсочванне бягучага занятку пры спыненні працы</long>
+            </locale>
+
+            <locale name="bg">
+                <short>Преустановяване на отчитането при изключване на компютъра</short>
+                <long>Преустановяване на отчитането на текущата дейност при изключване на компютъра</long>
+            </locale>
+
+            <locale name="bn">
+                <short>কম্পিউটার বন্ধ হলে</short>
+                <long>বন্ধ করা হলে বর্তমান কাজের নিরীক্ষণ বন্ধ করা হবে</long>
+            </locale>
+
+            <locale name="bn_IN">
+                <short>কম্পিউটার বন্ধ হলে</short>
+                <long>বন্ধ করা হলে বর্তমান কর্মের নিরীক্ষণ বন্ধ করা হবে</long>
+            </locale>
+
+            <locale name="ca">
+                <short>Para el comptador en aturar l&apos;ordinador</short>
+                <long>Para de comptar l&apos;activitat actual en aturar l&apos;ordinador</long>
+            </locale>
+
+            <locale name="ca@valencia">
+                <short>Para el comptador en parar l&apos;ordinador</short>
+                <long>Para de comptar l&apos;activitat actual en parar l&apos;ordinador</long>
+            </locale>
+
+            <locale name="cs">
+                <short>Zastavit sledování při vypnutí počítače</short>
+                <long>Zastavit sledování aktuální činnosti při vypnutí počítače</long>
+            </locale>
+
+            <locale name="da">
+                <short>Stop måling når der slukkes</short>
+                <long>Stop måling af den aktuelle aktivitet når der slukkes</long>
+            </locale>
+
+            <locale name="de">
+                <short>Beim Herunterfahren die Erfassung anhalten</short>
+                <long>Beim Herunterfahren momentane Tätigkeit nicht weiter erfassen</long>
+            </locale>
+
+            <locale name="el">
+                <short>Διακοπή καταγραφής κατά τον τερματισμό</short>
+                <long>Διακοπή καταγραφής παρούσας δραστηριότητας κατά τον τερματισμό</long>
+            </locale>
+
+            <locale name="en@shaw">
+                <short>𐑕𐑑𐑪𐑐 𐑑𐑮𐑨𐑒𐑦𐑙 𐑪𐑯 𐑖𐑩𐑑𐑛𐑶𐑯</short>
+                <long>𐑕𐑑𐑪𐑐 𐑑𐑮𐑨𐑒𐑦𐑙 𐑒𐑳𐑮𐑩𐑯𐑑 𐑨𐑒𐑑𐑦𐑝𐑦𐑑𐑦 𐑪𐑯 𐑖𐑩𐑑𐑛𐑶𐑯</long>
+            </locale>
+
+            <locale name="en_CA">
+                <short>Stop tracking on shutdown</short>
+                <long>Stop tracking current activity on shutdown</long>
+            </locale>
+
+            <locale name="en_GB">
+                <short>Stop tracking on shutdown</short>
+                <long>Stop tracking current activity on shutdown</long>
+            </locale>
+
+            <locale name="eo">
+                <short>Ĉesi ŝanĝospuri je komputila elŝalto</short>
+                <long>Ĉesi ŝanĝospuri la aktualan aktivecon je sistemfermo</long>
+            </locale>
+
+            <locale name="es">
+                <short>Detener el registro al apagar</short>
+                <long>Parar la actividad actual al apagar</long>
+            </locale>
+
+            <locale name="et">
+                <short>Väljalülitamisel lõpetatakse jälgimine</short>
+                <long>Jooksva tegevuse jälgimine lõpetatakse arvuti väljalülitamisel</long>
+            </locale>
+
+            <locale name="eu">
+                <short>Gelditu jarraipena itzaltzean</short>
+                <long>Gelditu uneko jardueraren jarraipena itzaltzean</long>
+            </locale>
+
+            <locale name="fi">
+                <short>Pysäytä seuranta sammutettaessa</short>
+                <long>Pysäytä nykyisen toimen seuranta sammutettaessa</long>
+            </locale>
+
+            <locale name="fr">
+                <short>Arrêter le suivi à l&apos;extinction de l&apos;ordinateur</short>
+                <long>Arrêter le suivi de l&apos;activité en cours à l&apos;extinction de l&apos;ordinateur</long>
+            </locale>
+
+            <locale name="gl">
+                <short>Deter o rexistro ao apagar</short>
+                <long>Deter a actividade actual ao apagar</long>
+            </locale>
+
+            <locale name="gu">
+                <short>બંધ કરી રહ્યા હોય ત્યારે શોધવાનું બંધ કરો</short>
+                <long>બંધ કરી રહ્યા હોય ત્યારે હાલની પ્રવૃત્તિ શોધવાનું બંધ કરો</long>
+            </locale>
+
+            <locale name="he">
+                <short>הפסק מעקב בכיבוי</short>
+                <long>Stop tracking current activity on shutdown</long>
+            </locale>
+
+            <locale name="hi">
+                <short>शटडाउन पर ट्रैकिंग रोकें</short>
+                <long>बंद करने पर मौजूदा गतिविधि की ट्रैकिंग रोकें</long>
+            </locale>
+
+            <locale name="hu">
+                <short>Nyilvántartás befejezése leállításkor</short>
+                <long>Az aktuális tevékenység nyilvántartásának befejezése leállításkor</long>
+            </locale>
+
+            <locale name="id">
+                <short>Berhenti melacak saat diamtikan</short>
+                <long>Berhenti melacak aktivitas ketika komputer dimatikan</long>
+            </locale>
+
+            <locale name="it">
+                <short>Fermare il conteggio all&apos;arresto del sistema</short>
+                <long>Ferma il conteggio dell&apos;attività corrente all&apos;arresto del sistema</long>
+            </locale>
+
+            <locale name="ja">
+                <short>シャットダウン時は記録を停止する</short>
+                <long>シャットダウン時に記録を停止する</long>
+            </locale>
+
+            <locale name="kn">
+                <short>ಮುಚ್ಚಿದಾಗ ಟ್ರ್ಯಾಕಿಂಗನ್ನು ನಿಲ್ಲಿಸು</short>
+                <long>ಮುಚ್ಚಿದಾಗ ಪ್ರಸಕ್ತ ಟ್ರ್ಯಾಕಿಂಗ್ ಚಟುವಟಿಕೆಯನ್ನು ನಿಲ್ಲಿಸು</long>
+            </locale>
+
+            <locale name="ko">
+                <short>컴퓨터를 끄면 추적 중지</short>
+                <long>컴퓨터를 끄면 현재 활동의 추적을 중지합니다</long>
+            </locale>
+
+            <locale name="lt">
+                <short>Sustabdyti sekimą išjungus</short>
+                <long>Sustabdyti esamo užsiėmimo sekimą išjungus</long>
+            </locale>
+
+            <locale name="lv">
+                <short>Pārtraukt uzskaiti, datoru izslēdzot</short>
+                <long>Pārtraukt pašreizējās darbības uzskaiti, kad dators tiek izslēgts</long>
+            </locale>
+
+            <locale name="mk">
+                <short>Престани со следење при исклучување</short>
+                <long>Престани со следење на тековната активност при исклучување</long>
+            </locale>
+
+            <locale name="ml">
+                <short>കമ്പ്യൂട്ടര്‍ പ്രവര്‍ത്തനം നിറുത്തിക്കൊണ്ടിരിക്കുമ്പോള്‍ നിരീക്ഷണം നിര്‍ത്തുക</short>
+                <long>കമ്പ്യൂട്ടര്‍ നിര്‍ത്തിക്കൊണ്ടിരിക്കുമ്പോള്‍ ആ സമയത്തു് നടക്കുന്ന പ്രവര്‍ത്തനങ്ങളുടെ നിരീക്ഷണം നിര്‍ത്തുക</long>
+            </locale>
+
+            <locale name="mr">
+                <short>शटडाऊनवेळी मार्गनिर्देशन बंद करा</short>
+                <long>शटडाऊनवेळी वर्तमान कार्याचे मार्गनिर्देशन थांबवा</long>
+            </locale>
+
+            <locale name="nb">
+                <short>Stopp sporing når datamaskinen slås av</short>
+                <long>Stopp sporing av pågående aktivitet når datamaskinen slås av</long>
+            </locale>
+
+            <locale name="nl">
+                <short>Stop registratie bij afsluiten</short>
+                <long>Registratie huidige activiteit stoppen bij afsluiten computer</long>
+            </locale>
+
+            <locale name="or">
+                <short>ବନ୍ଦ କରିବା ପରେ ଅନୁସରଣକୁ ବିରାମ ଦିଅନ୍ତୁ</short>
+                <long>ବନ୍ଦ କରିବା ପରେ ସାଂପ୍ରତିକ କାର୍ୟକ୍ରମର ଅନୁସରଣକୁ ବିରାମ ଦିଅନ୍ତୁ</long>
+            </locale>
+
+            <locale name="pa">
+                <short>ਬੰਦ ਕਰਨ ਸਮੇਂ ਟਰੈਕਿੰਗ ਬੰਦ ਕਰੋ</short>
+                <long>ਬੰਦ ਕਰਨ ਉੱਤੇ ਮੌਜੂਦਾ ਸਰਗਰਮੀ ਲਈ ਟਰੈਕਿੰਗ ਬੰਦ ਕਰੋ</long>
+            </locale>
+
+            <locale name="pl">
+                <short>Zatrzymanie śledzenia przy wyłączeniu komputera</short>
+                <long>Zatrzymanie śledzenia bieżącej czynności przy wyłączeniu komputera</long>
+            </locale>
+
+            <locale name="pt">
+                <short>Parar de registar ao desligar</short>
+                <long>Parar de registar a actividade actual ao desligar</long>
+            </locale>
+
+            <locale name="pt_BR">
+                <short>Para de registrar ao desligar</short>
+                <long>Para o registro da atividade atual ao desligar</long>
+            </locale>
+
+            <locale name="ro">
+                <short>Oprește pontarea când e oprit calculatorul</short>
+                <long>Oprește pontarea activității curente când calculatorul este oprit</long>
+            </locale>
+
+            <locale name="ru">
+                <short>Прекращать учёт при выключении компьютера</short>
+                <long>Прекращать учёт текущего занятия при выключении компьютера</long>
+            </locale>
+
+            <locale name="si">
+                <short>shutdown කරන විටදී tracking කිරීම නවත්වන්න</short>
+                
+            </locale>
+
+            <locale name="sl">
+                <short>Zaustavi sledenje ob izklopu računalnika</short>
+                <long>Zaustavi sledenje trenutni dejavnosti ob izklopu računalnika</long>
+            </locale>
+
+            <locale name="sq">
+                <short>Ndalon numërimin kur sistemi shuhet</short>
+                <long>Ndalo llogaritjen e kohës së aktivitetit të tanishëm kur sistemi shuhet</long>
+            </locale>
+
+            <locale name="sr">
+                <short>Заустави праћење при гашењу</short>
+                <long>Заустави праћење текуће активности при гашењу</long>
+            </locale>
+
+            <locale name="sr@latin">
+                <short>Zaustavi praćenje pri gašenju</short>
+                <long>Zaustavi praćenje tekuće aktivnosti pri gašenju</long>
+            </locale>
+
+            <locale name="sv">
+                <short>Stoppa tidmätning vid avstängning</short>
+                <long>Stoppa tidmätning av aktuell aktivitet vid avstängning</long>
+            </locale>
+
+            <locale name="ta">
+                <short>முடித்து வைத்ததும் தடத்தொடர்தல்  நிறுத்தவும்</short>
+                <long>முடித்து வைத்ததும் தற்போதைய செயல்பாட்டுத் தடத்தொடர்தல்  நிறுத்தவும்</long>
+            </locale>
+
+            <locale name="te">
+                <short>విద్యుత్ ఆపివేసినప్పుడు జాడతీయడం ఆపివేయి</short>
+                <long>విద్యుత్ ఆపివేసినప్పుడు ప్రస్తుత కార్యాన్ని జాడతీయడం ఆపివేయి</long>
+            </locale>
+
+            <locale name="th">
+                <short>หยุดติดตามเมื่อปิดเครื่อง</short>
+                <long>หยุดติดตามกิจกรรมที่ดำเนินอยู่เมื่อปิดเครื่อง</long>
+            </locale>
+
+            <locale name="tr">
+                <short>Kapatıldığında takibi durdur</short>
+                <long>Bilgisayar kapatıldığında mevcut etkinliği takip etmeyi durdur</long>
+            </locale>
+
+            <locale name="ug">
+                <short>تاقىغاندا ئىزلاشنى توختات</short>
+                <long>تاقىغاندا ھازىرقى پائالىيەتنى ئىزلاشنى توختات</long>
+            </locale>
+
+            <locale name="uk">
+                <short>Припиняти стеження при вимиканні комп&apos;ютера</short>
+                <long>Припинити стеження за поточною дією при вимиканні комп&apos;ютера</long>
+            </locale>
+
+            <locale name="vi">
+                <short>Dừng theo dõi khi tắt máy</short>
+                <long>Dừng theo dõi hoạt động hiện thời khi tắt máy</long>
+            </locale>
+
+            <locale name="zh_CN">
+                <short>关机时停止跟踪</short>
+                <long>关机时停止跟踪当前活动</long>
+            </locale>
+
+            <locale name="zh_HK">
+                <short>關機時停止追蹤</short>
+                <long>關機時停止追蹤目前的活動</long>
+            </locale>
+
+            <locale name="zh_TW">
+                <short>關機時停止追蹤</short>
+                <long>關機時停止追蹤目前的活動</long>
+            </locale>
+        </schema>
+        <schema>
+            <key>/schemas/apps/hamster/notify_interval</key>
+            <applyto>/apps/hamster/notify_interval</applyto>
+            <owner>hamster</owner>
+            <type>int</type>
+            <default>27</default>
+            <locale name="C">
+                <short>Remind of current task every x minutes</short>
+                <long>
+                    Remind of current task every specified amount of minutes.
+                    Set to 0 or greater than 120 to disable reminder.
+                </long>
+            </locale>
+
+            <locale name="af">
+                <short>Herinner aan die huidige taak elke x minute</short>
+                <long>Herinner my aan die taak elke gespesifiseerde hoeveelheid minute.Stel na 0 of groter as 120 om herinnerings af te skakel</long>
+            </locale>
+
+            <locale name="ar">
+                <short>ذكّر بالمهمة الحالية كل س من الدقائق</short>
+                <long>ذكّر بالمهمة الحالية كلما مرت المدة المحددة بالدقائق. اجعلها 0 أو أكبر من 120 لتعطيل التذكير.</long>
+            </locale>
+
+            <locale name="as">
+                <short>প্ৰতি x মিনিট অন্তৰ বৰ্তমান কামৰ বিষয়ে স্মৰণ কৰোৱা হ&apos;ব</short>
+                <long>মিনিটে ধাৰ্য সুনিৰ্দিষ্ট সময়ৰ অন্তৰত বৰ্তমান কাম সম্বন্ধে স্মৰণ কৰোৱা হ&apos;ব । স্মৰণ ব্যৱস্থা নিষ্ক্ৰিয় কৰাৰ বাবে ০ বা ১২০ ৰ পৰা অধিক কোনো সংখ্যা নিৰ্ধাৰণ কৰক ।</long>
+            </locale>
+
+            <locale name="be">
+                <short>Нагадваць пра бягучае заданне кожныя x хвілін</short>
+                <long>Нагадваць пра бягучае заданне праз вызначаную колькасць хвілін. Значэнне 0 ці большае за 120 адключае нагадванне.</long>
+            </locale>
+
+            <locale name="bg">
+                <short>Време в минути за повтарящо се напомняне</short>
+                <long>Напомняне за текущата задача на всяко изтичане на указания брой минути. За да изключите напомнянето, задайте да е 0 или над 120.</long>
+            </locale>
+
+            <locale name="bn">
+                <short>প্রতি x মিনিট অন্তর বর্তমান কর্মের বিষয়ে স্মরণ করানো হবে</short>
+                <long>মিনিটে ধার্য সুনির্দিষ্ট সময়ের অন্তরে বর্তমান কর্ম সম্বন্ধে স্মরণ করানো হবে। স্মরণ ব্যবস্থা নিষ্ক্রিয় করার জন্য ০ অথবা ১২০ থেকে অধিক কোনো সংখ্যা নির্ধারণ করুন।</long>
+            </locale>
+
+            <locale name="bn_IN">
+                <short>প্রতি x মিনিট অন্তর বর্তমান কর্মের বিষয়ে স্মরণ করানো হবে</short>
+                <long>মিনিটে ধার্য সুনির্দিষ্ট সময়ের অন্তরে বর্তমান কর্ম সম্বন্ধে স্মরণ করানো হবে। স্মরণ ব্যবস্থা নিষ্ক্রিয় করার জন্য 0 (০) অথবা 120 (১২০) থেকে অধিক কোনো সংখ্যা নির্ধারণ করুন।</long>
+            </locale>
+
+            <locale name="ca">
+                <short>Recorda l&apos;activitat actual cada x minuts</short>
+                <long>Recorda l&apos;activitat actual cada interval de minuts indicat. Si és 0 o més gran de 120 s&apos;inhabiliten els recordatoris.</long>
+            </locale>
+
+            <locale name="ca@valencia">
+                <short>Recorda l&apos;activitat actual cada x minuts</short>
+                <long>Recorda l&apos;activitat actual cada interval de minuts indicat. Si és 0 o més gran de 120 s&apos;inhabiliten els recordatoris.</long>
+            </locale>
+
+            <locale name="cs">
+                <short>Připomenout aktuální úlohu každých x minut</short>
+                <long>Připomenout aktuální úlohu vždy po nastaveném času (min). Nastavte na 0 nebo větší než 120 pro zakázání upozorňování.</long>
+            </locale>
+
+            <locale name="da">
+                <short>Påmind om nuværende opgave hvert x&apos;te minut</short>
+                <long>Påmind om den nuværende opgave med det angivne interval i minutter. Sæt værdien til 0 eller højere end 120 for at deaktivere påmindelsen.</long>
+            </locale>
+
+            <locale name="de">
+                <short>Alle X Minuten an momentane Tätigkeit erinnern</short>
+                <long>Alle X Minuten an momentane Tätigkeit erinnern. Wenn dieser Wert 0 oder größer als 120 ist, wird die Erinnerung deaktiviert.</long>
+            </locale>
+
+            <locale name="el">
+                <short>Υπενθύμιση τρέχουσας εργασίας κάθε x λεπτά</short>
+                <long>Υπενθύμιση της τρέχουσας δραστηριότητας σε κάθε ορισμένο αριθμό λεπτών. Ορίστε το σε 0 ή σε μεγαλύτερο από 120 για να απενεργοποιήσετε την υπενθύμιση.</long>
+            </locale>
+
+            <locale name="en@shaw">
+                <short>𐑮𐑦𐑥𐑲𐑯𐑛 𐑝 𐑒𐑳𐑮𐑩𐑯𐑑 𐑑𐑭𐑕𐑒 𐑧𐑝𐑮𐑦 x 𐑥𐑦𐑯𐑦𐑑𐑕</short>
+                <long>𐑮𐑦𐑥𐑲𐑯𐑛 𐑝 𐑒𐑳𐑮𐑩𐑯𐑑 𐑑𐑭𐑕𐑒 𐑧𐑝𐑮𐑦 𐑕𐑐𐑧𐑕𐑦𐑓𐑲𐑛 𐑩𐑥𐑬𐑯𐑑 𐑝 𐑥𐑦𐑯𐑦𐑑𐑕. 𐑕𐑧𐑑 𐑑 0 𐑹 𐑜𐑮𐑱𐑑𐑼 𐑞𐑨𐑯 120 𐑑 𐑛𐑦𐑕𐑱𐑚𐑩𐑤 𐑮𐑦𐑥𐑲𐑯𐑛𐑼.</long>
+            </locale>
+
+            <locale name="en_CA">
+                <short>Remind of current task every x minutes</short>
+                <long>Remind of current task every specified amount of minutes. Set to 0 or greater than 120 to disable reminder.</long>
+            </locale>
+
+            <locale name="en_GB">
+                <short>Remind of current task every x minutes</short>
+                <long>Remind of current task every specified amount of minutes. Set to 0 or greater than 120 to disable reminder.</long>
+            </locale>
+
+            <locale name="eo">
+                <short>Rememorigi pri aktuala tasko je ĉiu x minutoj</short>
+                <long>Rememorigi pri aktuala tasko je ĉiu specifita intervalo de minutoj. Malebligu memorigon per elekto de 0 aŭ pli ol 120.</long>
+            </locale>
+
+            <locale name="es">
+                <short>Recordar la tarea actual cada x minutos</short>
+                <long>Recordar la tarea actual cada número de minutos especificados. Establecer a 0 o a más de 120 para desactivar el recordatorio.</long>
+            </locale>
+
+            <locale name="et">
+                <short>Jooksvast tegevusest antakse teada iga x minuti järel</short>
+                <long>Jooksva tegevuse kohta antakse teada kindlaksmääratud hulga minutite järel. Väärtuse 0 või 120-st suurema väärtuse korral on meeldetuletaja keelatud.</long>
+            </locale>
+
+            <locale name="eu">
+                <short>Gogoratu uneko ataza x minuturo</short>
+                <long>Gogoratu uneko ataza, zehaztutako minutu kopururo. Ezarri 0 edo 120 baino balio handiagoarekin oroigarria desgaitzeko.</long>
+            </locale>
+
+            <locale name="fi">
+                <short>Muistuta ajankohtaisista tapahtumista x minuutin välein</short>
+                <long>Muistuta nykyisestä tehtävästä annetun minuuttimäärän välein. Aseta arvoksi 0 tai suurempi kuin 120, jos et halua muistutuksia.</long>
+            </locale>
+
+            <locale name="fr">
+                <short>Rappeler l&apos;activité en cours toutes les n minutes</short>
+                <long>Rappeler l&apos;activité en cours chaque nombre de minutes spécifié. Définir à 0 ou à plus de 120 pour désactiver le rappel.</long>
+            </locale>
+
+            <locale name="gl">
+                <short>Recordarme a tarefa actual cada x minutos</short>
+                <long>Recordar a tarefa actual coa frecuencia especificada en minutos. Configúrea como 0 ou superior a 120 para desactivar o recordatorio.</long>
+            </locale>
+
+            <locale name="gu">
+                <short>વર્તમાન કામને દર x મિનિટોએ યાદ અપાવે</short>
+                <long>દરેક કામને સ્પષ્ટ થયેલ મિનિટોના આ દરે યાદ અપાવો. ૦ માં સુયોજીત થયેલ છે અથવા યાદ અપાવનાર નિષ્ક્રિય કરવા માટે ૧૨૦ કરતાં વધુ.</long>
+            </locale>
+
+            <locale name="he">
+                <short>Remind of current task every x minutes</short>
+                <long>Remind of current task every specified amount of minutes. Set to 0 or greater than 120 to disable reminder.</long>
+            </locale>
+
+            <locale name="hi">
+                <short>हर x मिनट में मौजूदा कार्य का स्मार</short>
+                <long>मौजूदा कार्य के बारे में हर निर्दिष्ट मिनट में याद दिलाएँ. 0 या 120 से अधिक पर सेट करें यदि आप अनुस्मारक को निष्क्रिय करना चाहते हैं.</long>
+            </locale>
+
+            <locale name="hu">
+                <short>Emlékeztető az aktuális feladatra ennyi percenként</short>
+                <long>Emlékeztessen az adott feladatra a megadott percenként. Az emlékeztető letiltásához állítsa 0-ra vagy 120-nál nagyobb értékűre.</long>
+            </locale>
+
+            <locale name="id">
+                <short>Mengingatkan tugas yang berlangsung setiap x menit.</short>
+                <long>Ingatkan tugas saat ini setiap sekian menit yang dinyatakan. Tata ke 0 atau lebih dari 120 untuk mematikan pengingat.</long>
+            </locale>
+
+            <locale name="it">
+                <short>Ricorda l&apos;attività corrente ogni X minuti</short>
+                <long>Ricorda l&apos;attività corrente in base ai minuti specificati. Impostare a 0 o maggiore di 120 per disabilitare la notifica.</long>
+            </locale>
+
+            <locale name="ja">
+                <short>現在のタスクを x 分ごとに通知します</short>
+                <long>現在のタスクを、指定した時間(分)ごとに通知します。0または120を超える値に設定すると通知しません。</long>
+            </locale>
+
+            <locale name="kn">
+                <short>ಪ್ರಸಕ್ತ ಕೆಲಸವನ್ನು x ನಿಮಿಷಗಳ ನಂತರ ನೆನಪಿಸುತ್ತದೆ</short>
+                <long>ಪ್ರಸಕ್ತ ಕೆಲಸವನ್ನು ಪ್ರತಿ ನಿಗದಿಪಡಿಸಿದ ನಿಮಿಷಗಳ ನಂತರ ನೆನಪಿಸುತ್ತದೆ. ಈ ನೆನಪು ಮಾಡುವುದನ್ನು ಅಶಕ್ತಗೊಳಿಸಲು ಈ ಮೌಲ್ಯವನ್ನು ೦ ಗೆ ಅಥವ ೧೨೦ಕ್ಕಿಂತ ಹೆಚ್ಚಿನದಕ್ಕೆ ಬದಲಾಯಿಸಿ.</long>
+            </locale>
+
+            <locale name="ko">
+                <short>현재 활동을 매 몇분마다 알립니다</short>
+                <long>현재 활동을 지정한 분마다 알립니다. 0으로 설정하거나 120보다 큰 값으로 설정하면 알리지 않습니다.</long>
+            </locale>
+
+            <locale name="lt">
+                <short>Pranešti apie esamą veiklą kas x minučių</short>
+                <long>Pranešti apie esamą veiklą kas nurodytą minučių skaičių. Nustatykite į 0 arba daugiau negu 120, jei norite išjungti pranešimus.</long>
+            </locale>
+
+            <locale name="lv">
+                <short>Atgādināt par pašreizējo darbību ik pēc x minūtēm</short>
+                <long>Atgādināt par pašreizējo darbību ik pēc norādītajām minūtēm. Atgādinājumus var izslēgt, šeit ierakstot 0 vai skaitli, kas lielāks par 120.</long>
+            </locale>
+
+            <locale name="mk">
+                <short>Потсети ме за тековната задача на секои x минути</short>
+                <long>Потсети ме за тековната задача на одреден број минути. Поставете на 0 или на повеќе од 120 за оневозможување на потсетникот.</long>
+            </locale>
+
+            <locale name="ml">
+                <short>നിലവിലുള്ള പ്രവര്‍ത്തനം എല്ലാ x മിനിട്ടിലും ഓര്‍പ്പിക്കുക</short>
+                <long>നിലവില്‍ ചെയ്യുന്ന ജോലി പറഞ്ഞിരിക്കുന്ന സമയത്തു് ഓര്‍പ്പിക്കുക. 0 അല്ലെങ്കില്‍ 120-നേക്കാള്‍ കൂടുതല്‍ നല്‍കി റിമയിണ്ടര്‍ പ്രവര്‍ത്തന രഹിതമാക്കുക.</long>
+            </locale>
+
+            <locale name="mr">
+                <short>सध्याच्या कार्यविषयी प्रत्येक x मिनीटे नंतर लक्षात आणून द्या</short>
+                <long>सध्याच्या कार्यविषयी ठराविक मिनीटानंतर लक्षात आणून द्या. आठवण अकार्यक्षम करण्यासाठी 0 किंवा 120 पेक्षा जास्त असे सेट करा.</long>
+            </locale>
+
+            <locale name="nb">
+                <short>Vis påminnelse om aktiv oppgave hvert x minutt</short>
+                <long>Påminnelse om aktiv oppgave ved spesifiserte intervaller i minutter. Sett til 0 eller større enn 120 for å slå av påminnelse.</long>
+            </locale>
+
+            <locale name="nl">
+                <short>Elke x minuten herinneren aan de huidige activiteit</short>
+                
+            </locale>
+
+            <locale name="or">
+                <short>ସାଂପ୍ରତିକ କାର୍ଯ୍ୟ ର ସ୍ମରଣ ପ୍ରତି x ମିନିଟରେ କରାନ୍ତୁ</short>
+                <long>ନିର୍ଦ୍ଦିଷ୍ଟ ମିନିଟରେ ସାଂପ୍ରତିକ କାର୍ଯ୍ୟ ସ୍ମରଣ କରନ୍ତୁ. ସ୍ମାରକକୁ ଅକ୍ଷମ କରିବା ନିମନ୍ତେ 0 ଅଥବା 120 ଠାରୁ ଅଧିକ ସଂଖ୍ଯା ବିନ୍ୟାସ କରନ୍ତୁ।</long>
+            </locale>
+
+            <locale name="pa">
+                <short>ਮੌਜੂਦਾ ਟਾਸਕ ਹਰੇਕ x ਮਿੰਟਾਂ ਬਾਅਦ ਚੇਤੇ ਕਰਵਾਉ</short>
+                <long>ਖਾਸ ਦਿੱਤੇ ਮਿੰਟਾਂ ਦੇ ਬਾਅਦ ਮੌਜੂਦਾ ਟਾਸਕ ਚੇਤੇ ਕਰਵਾਉ। ਰੀਮਾਈਡਰ ਬੰਦ ਕਰਨ ਲਈ 0 ਜਾਂ 120 ਤੋਂ ਵੱਧ ਸੈੱਟ ਕਰੋ।</long>
+            </locale>
+
+            <locale name="pl">
+                <short>Przypominanie o bieżącej czynności co x minut</short>
+                <long>Przypominanie o bieżącej czynności co określoną liczbę minut. Ustawienie wartości na 0 lub więcej niż 120, wyłącza przypominanie.</long>
+            </locale>
+
+            <locale name="pt">
+                <short>Recordar a tarefa actual a cada x minutos</short>
+                <long>Recordar a tarefa actual repetidamente a cada determinado número de minutos. Definir como 0 ou maior do que 120 para desactivar o lembrete.</long>
+            </locale>
+
+            <locale name="pt_BR">
+                <short>Lembra da tarefa atual a cada x minutos</short>
+                <long>Lembra da tarefa atual em períodos especificados em minutos. Defina como 0 ou mais de 120 para desabilitar o notificador.</long>
+            </locale>
+
+            <locale name="ro">
+                <short>Amintește sarcina curentă la fiecare x minute</short>
+                <long>Amintește sarcina curentă la un interval de minute specificat. Pentru dezactivare, definiți ca 0 sau mai mare de 120.</long>
+            </locale>
+
+            <locale name="ru">
+                <short>Напоминание о текущей задаче периодически через заданное число минут</short>
+                <long>Напоминание о текущей задаче каждые несколько минут. Значение 0 или более 120 отключает напоминание.</long>
+            </locale>
+
+            <locale name="sl">
+                <short>Opomni na trenutno nalogo vsakih x minut</short>
+                <long>Opomni na trenutno dejavnost vsakih toliko minut. Vrednost 0 in vrednost večja od 120 onemogoči opomnik.</long>
+            </locale>
+
+            <locale name="sr">
+                <short>Подсети на тренутни посао сваких x минута</short>
+                <long>Подсети на тренутни посао након временског интервала затдатог у минутама. Ставите на 0 или на више од 120 минута да онемогућите подсетник.</long>
+            </locale>
+
+            <locale name="sr@latin">
+                <short>Podseti na trenutni posao svakih x minuta</short>
+                <long>Podseti na trenutni posao nakon vremenskog intervala zatdatog u minutama. Stavite na 0 ili na više od 120 minuta da onemogućite podsetnik.</long>
+            </locale>
+
+            <locale name="sv">
+                <short>Påminn om aktuell uppgift var x minuter</short>
+                <long>Påminn om aktuell uppgift varje angivet antal minuter. Ställ in till 0 eller större än 120 för att inaktivera påminnelser.</long>
+            </locale>
+
+            <locale name="ta">
+                <short>ஒவ்வொரு x நிமிடங்களும் நடப்பு வேலையை நினைவுறுத்துக</short>
+                <long>நடப்பு பணியின் நினைவூட்டல் ஒவ்வொரு குறிப்பிட்ட அளவு நிமிடங்களுக்கு. 0 அல்லது 120 அதிகமாக அமைத்து நினைவூட்டலை செயல்நீக்கவும்.</long>
+            </locale>
+
+            <locale name="te">
+                <short>ప్రస్తుత కర్తవ్యాన్ని ప్రతి x నిముషాలకు ఒకసారి గుర్తుచేయి</short>
+                <long>తెలుపబడినన్ని నిముషాలకొకసారి ప్రస్తుత కర్తవ్యాన్ని గుర్తుచేస్తుంది. గుర్తుచేయకుండా ఉండడానికి0 లేదా 120 కన్నా ఎక్కువకు అమర్చండి.</long>
+            </locale>
+
+            <locale name="th">
+                <short>แจ้งเตือนภารกิจปัจจุบันทุกๆ x นาที</short>
+                
+            </locale>
+
+            <locale name="tr">
+                <short>Mevcut görevi her x dakikada hatırlat</short>
+                <long>Mevcut görevi belirtilen miktardaki dakikada hatırlat. 0 ya da 120&apos;den daha büyük bir değer atayarak hatırlatıcıyı kapatabilirsiniz.</long>
+            </locale>
+
+            <locale name="ug">
+                <short>ھازىرقى ۋەزىپىنى ھەر x مىنۇتتا ئەسكەرت</short>
+                <long>ھازىرقى ۋەزىپىنى بەلگىلەنگەن مىنۇتتا ئەسكەرتىپ تۇرىدۇ. 0 ياكى 120 دىن چوڭ قىلىپ بېكىتىلسە ئەسكەرتىش ئىناۋەتسىز بولىدۇ.</long>
+            </locale>
+
+            <locale name="uk">
+                <short>Періодично нагадувати про поточну задачу через вказане число хвилин</short>
+                <long>Вмикає нагадування про поточну задачу періодично через вказане число хвилин. Значення 0 або більше 120 вимикає нагадування</long>
+            </locale>
+
+            <locale name="vi">
+                <short>Nhắc nhở về tác vụ hiện thời mỗi x phút</short>
+                
+            </locale>
+
+            <locale name="zh_CN">
+                <short>每隔几分钟提醒一次当前任务</short>
+                <long>每隔几分钟提醒一次当前任务。设定为 0 或大于 120 代表禁止提醒。</long>
+            </locale>
+
+            <locale name="zh_HK">
+                <short>每 x 分鐘提醒目前的工作</short>
+                <long>在每次指定的分鐘數後提醒目前的工作。設為 0 或大於 120 時表示停用提醒。</long>
+            </locale>
+
+            <locale name="zh_TW">
+                <short>每 x 分鐘提醒目前的工作</short>
+                <long>在每次指定的分鐘數後提醒目前的工作。設為 0 或大於 120 時表示停用提醒。</long>
+            </locale>
+        </schema>
+        <schema>
+            <key>/schemas/apps/hamster/notify_on_idle</key>
+            <applyto>/apps/hamster/notify_on_idle</applyto>
+            <owner>hamster</owner>
+            <type>bool</type>
+            <default>false</default>
+            <locale name="C">
+                <short>Also remind when no activity is set</short>
+                <long>
+                    Also remind every notify_interval minutes if no activity
+                    has been started.
+                </long>
+            </locale>
+
+            <locale name="af">
+                <short>Herinner ook wanneer geen taak gestel is nie</short>
+                <long>Herinner ook elke notify_interval minute indien daar met geen taak begin is nie.</long>
+            </locale>
+
+            <locale name="ar">
+                <short>ذكر أيضا عند عدم ضبط أي نشاط</short>
+                <long>ذكّر أيضا كل notify_interval دقائق إذا لم يُبدأ أي نشاط</long>
+            </locale>
+
+            <locale name="as">
+                <short>কোনো কাম নিৰ্ধাৰিত ন&apos;হ&apos;লে সূচিত কৰা হ&apos;ব</short>
+                <long>কোনো কাম আৰম্ভ নকৰিলে প্ৰতি notify_interval মিনিটত সূচনা প্ৰদান কৰা হ&apos;ব ।</long>
+            </locale>
+
+            <locale name="be">
+                <short>Таксама нагадваць, калі ніякі занятак не вызначаны</short>
+                <long>Таксама нагадваць кожныя notify_interval хвілін, калі ніякі занятак не пачаты.</long>
+            </locale>
+
+            <locale name="bg">
+                <short>Напомняне и когато не е зададена дейност</short>
+                <long>Да се напомня на интервал равен на ключа „notify_interval“ в минути, ако не е зададена текуща дейност.</long>
+            </locale>
+
+            <locale name="bn">
+                <short>উপরন্তু, কোনো কাজ নির্ধারিত না হলে সূচিত করা হবে</short>
+                <long>উপরন্তু, কোনো কাজ না আরম্ভ করা হলে প্রতি notify_interval মিনিটে সূচনা প্রদান করা হবে।</long>
+            </locale>
+
+            <locale name="bn_IN">
+                <short>উপরন্তু, কোনো কর্ম নির্ধারিত না হলে সূচিত করা হবে</short>
+                <long>উপরন্তু, কোনো কর্ম না আরম্ভ করা হলে প্রতি notify_interval মিনিটে সূচনা প্রদান করা হবে।</long>
+            </locale>
+
+            <locale name="ca">
+                <short>Recorda&apos;m també si no hi ha cap activitat en actiu</short>
+                <long>Recorda&apos;m també si no s&apos;ha iniciat cap activitat cada «notify_interval» (interval de notificació) minuts.</long>
+            </locale>
+
+            <locale name="ca@valencia">
+                <short>Recorda&apos;m també si no hi ha cap activitat en actiu</short>
+                <long>Recorda&apos;m també si no s&apos;ha iniciat cap activitat cada «notify_interval» (interval de notificació) minuts.</long>
+            </locale>
+
+            <locale name="cs">
+                <short>Připomenout, i když není nastavena žádná činnost</short>
+                <long>Připomenout vždy po nastavené době upozorňování (notify_interval v min.), pokud nebyla spuštěna žádná činnost.</long>
+            </locale>
+
+            <locale name="da">
+                <short>Påmind også når ingen aktivitet er angivet</short>
+                <long>Påmind også hvert notify_interval minut, hvis ingen aktivitet er påbegyndt.</long>
+            </locale>
+
+            <locale name="de">
+                <short>Auch dann erinnern, wenn keine Tätigkeit gesetzt ist</short>
+                <long>Auch alle »notify_interval« Minuten erinnern, falls keine Tätigkeit begonnen wurde. </long>
+            </locale>
+
+            <locale name="el">
+                <short>Υπενθύμιση ακόμα και όταν δεν έχει οριστεί δραστηριότητα</short>
+                <long>Να γίνεται υπενθύμιση σε κάθε διάστημα_υπενθύμισης ακόμα και αν δεν έχει ξεκινήσει μια δραστηριότητα.</long>
+            </locale>
+
+            <locale name="en@shaw">
+                <short>𐑷𐑤𐑕𐑴 𐑮𐑦𐑥𐑲𐑯𐑛 𐑢𐑧𐑯 𐑯𐑴 𐑨𐑒𐑑𐑦𐑝𐑦𐑑𐑦 𐑦𐑟 𐑕𐑧𐑑</short>
+                <long>𐑷𐑤𐑕𐑴 𐑮𐑦𐑥𐑲𐑯𐑛 𐑧𐑝𐑮𐑦 notify_interval 𐑥𐑦𐑯𐑦𐑑𐑕 𐑦𐑓 𐑯𐑴 𐑨𐑒𐑑𐑦𐑝𐑦𐑑𐑦 𐑣𐑨𐑟 𐑚𐑰𐑯 𐑕𐑑𐑸𐑑𐑩𐑛.</long>
+            </locale>
+
+            <locale name="en_CA">
+                <short>Also remind when no activity is set</short>
+                <long>Also remind every notify_interval minutes if no activity has been started.</long>
+            </locale>
+
+            <locale name="en_GB">
+                <short>Also remind when no activity is set</short>
+                <long>Also remind every notify_interval minutes if no activity has been started.</long>
+            </locale>
+
+            <locale name="eo">
+                <short>Ankaŭ rememorigi kiam neniu aktiveco estas difinita</short>
+                <long>Ankaŭ memorigi je ĉiu notify_interval minutoj se nenia aktiveco startis.</long>
+            </locale>
+
+            <locale name="es">
+                <short>Recordar también cuando no hay actividades configuradas</short>
+                <long>Recordar también cada intervalo de notificación («notify_interval») minutos si no se ha iniciado ninguna actividad.</long>
+            </locale>
+
+            <locale name="et">
+                <short>Meeldetuletused ka tegevuse puudumise korral</short>
+                <long>Meeldetuletuste kuvamine ka võtmega notify_interval määratud minutite järel isegi juhul, kui tegevust pole alustatud.</long>
+            </locale>
+
+            <locale name="eu">
+                <short>Gogorarazi baita ere jarduerarik ez denean ezarri</short>
+                <long>Gogoratu baita ere &apos;notify_interval&apos; bakoitzaren minutuak jarduerarik ez bada hasi.</long>
+            </locale>
+
+            <locale name="fi">
+                <short>Muistuta myös kun toimea ei ole asetettu</short>
+                <long>Muistuta myös joka notify_interval minuutin välein jos mitään toimea ei ole aloitettu.</long>
+            </locale>
+
+            <locale name="fr">
+                <short>Rappeler également lorsqu&apos;aucune activité n&apos;est définie</short>
+                <long>Rappeler également toutes les « notify_interval » minutes si aucune activité n&apos;a été commencée.</long>
+            </locale>
+
+            <locale name="gl">
+                <short>Recordar tamén cando non hai actividade</short>
+                <long>Lembra cada notify_interval en minutos se non hai actividade iniciada.</long>
+            </locale>
+
+            <locale name="gu">
+                <short>જ્યારે પ્રવૃત્તિ સુયોજિત ન હોય ત્યારે પણ યાદ અપાવો</short>
+                <long>દરેક notify_interval મિનિટોએ પણ યાદ રાખો જો પ્રવૃત્તિને શરૂ કરી ન દેવામાં આવી હોય.</long>
+            </locale>
+
+            <locale name="he">
+                <short>להזכיר גם כאשר לא מוגדרת שום פעילות</short>
+                <long>Also remind every notify_interval minutes if no activity has been started.</long>
+            </locale>
+
+            <locale name="hi">
+                <short>साथ ही याद दिलाएँ जब कोई गतिविधि सेट नहीं है</short>
+                <long>हर notify_interval पर साथ ही याद दिलाएँ यदि कोई गतिविधि आरंभ की गई है यदि कोई गतिविधि आरंभ की गई है.</long>
+            </locale>
+
+            <locale name="hu">
+                <short>Emlékeztessen akkor is, ha nincs beállítva tevékenység</short>
+                <long>Emlékeztessen notify_interval percenként akkor is, ha nincs elkezdve tevékenység.</long>
+            </locale>
+
+            <locale name="id">
+                <short>Juga ingatkan bila tak ada aktivitas yang ditata</short>
+                <long>Juga ingatkan setiap notify_interval menit bila tak ada aktivitas yang telah dimulai.</long>
+            </locale>
+
+            <locale name="it">
+                <short>Ricordare anche quando nessuna attività è impostata</short>
+                <long>Ricorda anche ogni notify_interval se non è stata avviata alcuna attività.</long>
+            </locale>
+
+            <locale name="ja">
+                <short>活動が設定されていない時にも通知する</short>
+                <long>活動が何も開始されていない場合にも、notify_interval 分毎に通知する。</long>
+            </locale>
+
+            <locale name="kn">
+                <short>ಯಾವುದೆ ಚಟುವಟಿಕೆಯನ್ನು ಹೊಂದಿಸದೆ ಇದ್ದಾಗ ಕೂಡ ನೆನಪಿಸು</short>
+                <long>ಯಾವುದೆ ಚಟುವಟಿಕೆಗಳನ್ನು ಆರಂಭಿಸದೆ ಇದ್ದಲ್ಲಿ ಪ್ರತಿ ಸೂಚನಾ_ಕಾಲಾವಧಿಯಲ್ಲೂ ನೆನಪಿಸು.</long>
+            </locale>
+
+            <locale name="ko">
+                <short>활동을 설정하지 않은 경우에도 알리기</short>
+                <long>활동이 시작하지 않았을 때에도 매 notify_interval 분마다 알립니다.</long>
+            </locale>
+
+            <locale name="lt">
+                <short>Taip pat pranešti, kai nenustatyta veikla</short>
+                <long>Pranešti kas notify_interval minučių, jei joks užsiėmimas nepradėtas.</long>
+            </locale>
+
+            <locale name="lv">
+                <short>atgādināt arī tad, ja darbība nav norādīta</short>
+                <long>Atgādināt katras notify_interval minūtes arī tad, ja pašlaik nekāda darbība nav uzsākta.</long>
+            </locale>
+
+            <locale name="mk">
+                <short>Потсети ме кога не е стартувана некоја активност</short>
+                <long>Исто така потсети ме на секои notify_interval минути ако не е стартувана некоја активност.</long>
+            </locale>
+
+            <locale name="ml">
+                <short>പ്രവര്‍ത്തനം സജ്ജമല്ലെങ്കില്‍ നിങ്ങളെ അറിയിക്കുകയും ചെയ്യുന്നു</short>
+                <long>ഒരു പ്രവര്‍ത്തനവും തുടങ്ങിയില്ലെങ്കില്‍, എല്ലാ notify_interval മിനിട്ടില്‍ ഓര്‍പ്പിക്കുക.</long>
+            </locale>
+
+            <locale name="mr">
+                <short>कार्य सेट न केल्यावर लक्षात आणून द्या</short>
+                <long>कार्य सुरू न केल्यास, प्रत्येक notify_interval मिनीटानंतर लक्षात आणून द्या.</long>
+            </locale>
+
+            <locale name="nb">
+                <short>Vis påminnelser når ingen aktivitet er satt</short>
+                
+            </locale>
+
+            <locale name="or">
+                <short>କୌଣସି କାର୍ଯ୍ୟକ୍ରମ ସେଟ କରାଯାଇଥିବା ସମୟରେ ମଧ୍ଯ ସ୍ମରଣ କରନ୍ତୁ</short>
+                <long>କୌଣସି କାର୍ଯ୍ୟକ୍ରମ ଆରମ୍ଭ ହୋଇନଥିଲେ ମଧ୍ଯ ପ୍ରତ୍ୟେକ ବିଜ୍ଞପ୍ତି ଅନ୍ତରାଳକୁ ମନେ ପକାଇ ଥାଏ।</long>
+            </locale>
+
+            <locale name="pa">
+                <short>ਜਦੋਂ ਕੋਈ ਸਰਗਰਮੀ ਸੈੱਟ ਨਾ ਹੋਵੇ ਤਾਂ ਵੀ ਚੇਤੇ ਕਰਵਾਓ</short>
+                <long>ਜੇ ਕੋਈ ਸਰਗਰਮੀ ਸ਼ੁਰੂ ਨਾ ਹੋਵੇ ਤਾਂ ਹਰੇਕ ਸੂਚਨਾ ਅੰਤਰਾਲ ਮਿੰਟ ਦੇ ਬਾਅਦ ਚੇਤੇ ਕਰਵਾਉ(_i)</long>
+            </locale>
+
+            <locale name="pl">
+                <short>Przypominanie również, gdy nie ustawiono żadnej czynności</short>
+                <long>Przypominanie co notify_interval minut nawet, jeśli nie uruchomiono żadnej czynności.</long>
+            </locale>
+
+            <locale name="pt">
+                <short>Recordar também quando não estiver nenhuma actividade definida</short>
+                <long>Recordar também a cada notify_interval minutos caso não esteja nenhuma actividade iniciada.</long>
+            </locale>
+
+            <locale name="pt_BR">
+                <short>Lembrar também quando não houver atividade definida</short>
+                <long>Lembrar também a cada notify_interval em minutos se não houver atividade iniciada.</long>
+            </locale>
+
+            <locale name="ro">
+                <short>Amintește atunci când nu există o activitate definită</short>
+                <long>De asemenea, amintește la fiecare notify_interval minute dacă nu s-a pornit o activitate.</long>
+            </locale>
+
+            <locale name="ru">
+                <short>Также напоминать, когда занятие не установлено</short>
+                <long>Также напоминать каждые notify_interval минут, если ни одно занятие не начато.</long>
+            </locale>
+
+            <locale name="sl">
+                <short>Opozori kadar ni določenih dejavnosti</short>
+                <long>Opozori vsakih _nekaj minut, če ni nobene začete dejavnosti.</long>
+            </locale>
+
+            <locale name="sr">
+                <short>Такође ме и подсети када нема активности</short>
+                <long>Уколико ни једна активност није започета подсети ме након одређеног боја минута, које одређује кључ notify_interval.</long>
+            </locale>
+
+            <locale name="sr@latin">
+                <short>Takođe me i podseti kada nema aktivnosti</short>
+                <long>Ukoliko ni jedna aktivnost nije započeta podseti me nakon određenog boja minuta, koje određuje ključ notify_interval.</long>
+            </locale>
+
+            <locale name="sv">
+                <short>Påminn även när ingen aktivitet är inställd</short>
+                <long>Påminn även varje notify_interval minuter om ingen aktivitet har startats.</long>
+            </locale>
+
+            <locale name="ta">
+                <short>செயல் அமைக்காத போதும் நினைவுறுத்துக</short>
+                <long>செயல் துவக்கப்படாத போதும் நினைவுறுத்த வேண்டிய இடைவெளியில் நினைவுறுத்துக (_i)</long>
+            </locale>
+
+            <locale name="te">
+                <short>ఏ కార్యమూ లేకున్నా గుర్తుచేయాలి</short>
+                <long>ఏ కార్యము ప్రారంభించకపోతే ప్రతి notify_interval నిమిషాలకొకసారి గుర్తుచేయి.</long>
+            </locale>
+
+            <locale name="tr">
+                <short>Hiçbir etkinlik ayarlanmadığında ayrıca hatırlat</short>
+                <long>Ayrıca, hiçbir etkinlik başlatılmadığında her notify_interval dakikada bir hatırlat.</long>
+            </locale>
+
+            <locale name="ug">
+                <short>پائالىيەت بەلگىلەنمىگەندىمۇ ئەسكەرت</short>
+                <long>ئەگەر پائالىيەت باشلانمىغان بولسا يەنىلا ھەر قېتىملىق بەلگىلەنگەن ئەسكەرتىش ئارىلىقىدا ئەسكەرتىدۇ.</long>
+            </locale>
+
+            <locale name="uk">
+                <short>Також нагадати коли не встановлено діяльність</short>
+                <long>Нагадувати з інтервалом notify_interval у хвилинах, якщо дію не було розпочато.</long>
+            </locale>
+
+            <locale name="zh_CN">
+                <short>没有任何活动时仍然提醒</short>
+                <long>如果没有活动开始，仍然每隔设定的提醒间隔时间进行提醒。</long>
+            </locale>
+
+            <locale name="zh_HK">
+                <short>當沒有設定活動時也提醒</short>
+                <long>如果沒有活動開始，仍在每 notify_interval 分鐘提醒我。</long>
+            </locale>
+
+            <locale name="zh_TW">
+                <short>當沒有設定活動時也提醒</short>
+                <long>如果沒有活動開始，仍在每 notify_interval 分鐘提醒我。</long>
+            </locale>
+        </schema>
+        <schema>
+            <key>/schemas/apps/hamster/day_start_minutes</key>
+            <applyto>/apps/hamster/day_start_minutes</applyto>
+            <owner>hamster</owner>
+            <type>int</type>
+            <default>330</default>
+            <locale name="C">
+                <short>At what time does the day start (defaults to 5:30AM)</short>
+                <long>
+                    Activities will be counted as to belong to yesterday if
+                    the current time is less than the specified day start; and
+                    today, if it is over the time.
+                    Activities that span two days, will tip over to the side
+                    where the largest part of the activity is.
+                </long>
+            </locale>
+
+            <locale name="af">
+                <short>Hoe laat begin die dag? (Verstekwaarde is 05:30)</short>
+                <long>Take sal onder gister val indien die huidige tyd minder as die gegewe dag se aanvangstyd is, maar onder vandag indien dit meer as daardie aanvangstyd is. Take wat oor twee dae strek, sal onder die dag verskyn waarin die meeste tyd gespandeer is.</long>
+            </locale>
+
+            <locale name="as">
+                <short>কি সময়ত দিনটো আৰম্ভ হয় (অবিকল্পিত ৫:৩০ লে)</short>
+                <long>যদি বৰ্তমান সময ধাৰ্য্য কৰা আৰম্ভনী তাৰিখত আৰু আজিৰ তাৰিখতকে কম হয়; তেনেহলে কাৰ্য্যসমূহক যোৱাকালিৰ  বুলি ধৰি গণনা কৰা হ&apos;ব, যদি ই সময় পাৰ কৰিছে, তেনেহলে যিসমূহ কাৰ্য্যত দুদিনৰ বেছি লাগে, সেইবোৰ সেইফালে যাব যিফালে কাৰ্য্যৰ বৃহতম ভাগ আছে।</long>
+            </locale>
+
+            <locale name="be">
+                <short>Калі пачынаецца дзень (прадвызначана а 5:30)</short>
+                <long>Занятак лічыцца ўчорашнім, калі бягучы час меншы за вызначаны час пачатку дня, і сённяшнім, калі гэты час большы. Занятак, расцягнуты на два дні, будзе аднесены да таго дня, у які дзейнасць была больш працяглай.</long>
+            </locale>
+
+            <locale name="bg">
+                <short>Кога започва денят (стандартно е в 5:30)</short>
+                <long>Дейностите се броят към предишния ден, ако текущото време е преди указаното за начало на деня, и се броят към днешния ден, ако текущото време е след това. Дейностите, които са в два дни, се броят към този, в който е по-голямата част от тях.</long>
+            </locale>
+
+            <locale name="bn">
+                <short>At what time does the day start (defaults to 5:30AM)</short>
+                
+            </locale>
+
+            <locale name="ca">
+                <short>Hora d&apos;inici del dia (hora per defecte: les 5:30)</short>
+                <long>Es considerarà que les activitats pertanyen a ahir si l&apos;hora actual és anterior a la que s&apos;ha indicat com a inici del dia, i que pertanyen a avui si l&apos;hora és posterior. Les activitats que es duen a terme al llarg de dos dies es comptabilitzen al dia en què es realitzi la major part de l&apos;activitat.</long>
+            </locale>
+
+            <locale name="ca@valencia">
+                <short>Hora d&apos;inici del dia (hora per defecte: les 5:30)</short>
+                <long>Es considerarà que les activitats pertanyen a ahir si l&apos;hora actual és anterior a la que s&apos;ha indicat com a inici del dia, i que pertanyen a hui si l&apos;hora és posterior. Les activitats que es duen a terme al llarg de dos dies es comptabilitzen al dia en què es realitzi la major part de l&apos;activitat.</long>
+            </locale>
+
+            <locale name="cs">
+                <short>V kolik hodin začíná den (výchozí čas je 5:30)</short>
+                <long>Činnosti budou zahrnuty do včerejška, pokud je aktuální čas před stanoveným začátkem dne, a do dneška v případě, že překročí tento čas. Činnosti, které trvají dva dny, se překlopí do dne, ve kterém se odehrává delší část činnosti.</long>
+            </locale>
+
+            <locale name="da">
+                <short>På hvilket tidspunkt starter dagen (forvalget er 5.30 om morgenen)</short>
+                <long>Aktiviteter vil blive regnet som tilhørende i går, hvis den aktuelle tid er mindre end den specificerede start på dagen og ellers vil den blive regnet som tilhørende i dag. Aktiviteter, som spænder over to dage, vil tippe over til den dag hvor størstedelen af aktiviteten ligger.</long>
+            </locale>
+
+            <locale name="de">
+                <short>Zeit des Tagesbeginns (Vorgabe ist 5:30 Uhr)</short>
+                <long>Tätigkeiten werden dem gestrigen Tag zugeordnet, falls die aktuelle Tageszeit vor der als Tagesbeginn festgelegten Zeit liegt, und dem heutigen Tag, falls danach. Tätigkeiten, die sich über zwei Tage erstrecken, werden dem Tag zugeordnet, zu dem der längste Teil der Tätigkeit gehört.</long>
+            </locale>
+
+            <locale name="el">
+                <short>Ποια ώρα ξεκινάει η ημέρα (προεπιλογή στις 5:30π.μ)</short>
+                <long>Αν η ώρα πραγματοποίησης μιας εργασίας είναι νωρίτερα από την καθορισμένη ώρα έναρξης της ημέρας, τότε θα καταγραφεί ως εργασία της προηγούμενης ημέρας. Οι δραστηριότητες που επεκτείνονται σε δύο ημέρες θα προσμετρούνται στην ημέρα όπου πραγματοποιήθηκε το μεγαλύτερο μέρος της εργασίας.</long>
+            </locale>
+
+            <locale name="en@shaw">
+                <short>𐑨𐑑 𐑢𐑪𐑑 𐑑𐑲𐑥 𐑛𐑳𐑟 𐑞 𐑛𐑱 𐑕𐑑𐑸𐑑 (𐑛𐑦𐑓𐑷𐑤𐑑𐑕 𐑑 5:30AM)</short>
+                <long>𐑨𐑒𐑑𐑦𐑝𐑦𐑑𐑦𐑟 𐑢𐑦𐑤 𐑚𐑰 𐑒𐑬𐑯𐑑𐑩𐑛 𐑨𐑟 𐑑 𐑚𐑦𐑤𐑪𐑙 𐑑 𐑘𐑧𐑕𐑑𐑼𐑛𐑱 𐑦𐑓 𐑞 𐑒𐑳𐑮𐑩𐑯𐑑 𐑑𐑲𐑥 𐑦𐑟 𐑤𐑧𐑕 𐑞𐑨𐑯 𐑞 𐑕𐑐𐑧𐑕𐑦𐑓𐑲𐑛 𐑛𐑱 𐑕𐑑𐑸𐑑; 𐑯 𐑑𐑫𐑛𐑱, 𐑦𐑓 𐑦𐑑 𐑦𐑟 𐑴𐑝𐑼 𐑞 𐑑𐑲𐑥. 𐑨𐑒𐑑𐑦𐑝𐑦𐑑𐑦𐑟 𐑞𐑨𐑑 𐑕𐑐𐑨𐑯 𐑑𐑵 𐑛𐑱𐑟, 𐑢𐑦𐑤 𐑑𐑦𐑐 𐑴𐑝𐑼 𐑑 𐑞 𐑕𐑲𐑛 𐑢𐑺 𐑞 𐑤𐑸𐑡𐑩𐑕𐑑 𐑐𐑸𐑑 𐑝 𐑞 𐑨𐑒𐑑𐑦𐑝𐑦𐑑𐑦 𐑦𐑟.</long>
+            </locale>
+
+            <locale name="en_CA">
+                <short>At what time does the day start (defaults to 5:30AM)</short>
+                <long>Activities will be counted as to belong to yesterday if the current time is less than the specified day start; and today, if it is over the time. Activities that span two days, will tip over to the side where the largest part of the activity is.</long>
+            </locale>
+
+            <locale name="en_GB">
+                <short>At what time does the day start (defaults to 05:30)</short>
+                <long>Activities will be counted as to belong to yesterday if the current time is less than the specified day start; and today, if it is over the time. Activities that span two days, will tip over to the side where the largest part of the activity is.</long>
+            </locale>
+
+            <locale name="eo">
+                <short>Je kiu horo komenciĝas la tago (defaŭltas al 5:30 atm)</short>
+                <long>Aktivecoj estos kalkulitaj kiel apartenantaj al hieraŭ se la nuna horo estas malpli ol la specifita tago-komenco; kaj hodiaŭ, se ĝi estas post la horo. Aktivecoj kiuj daŭras du tagojn, transiros al kie la plej granda parto de la aktiveco estas.</long>
+            </locale>
+
+            <locale name="es">
+                <short>A qué hora comienza el día (lo predeterminado es 05:30)</short>
+                <long>Las actividades se contarán como si perteneciesen a ayer si la hora actual es anterior al día de inicio especificado; y para hoy, si es posterior. Las actividades que se alargan durante dos días recaerán sobre la parte donde más actividad se haya realizado.</long>
+            </locale>
+
+            <locale name="et">
+                <short>Mis kell algab päev (vaikimisi 5:30)</short>
+                <long>Kui praegune hetk on enne päeva algusajaks määratud aega, siis kuvatakse tegevused eelmisesse päeva kuuluvatena. Kui päeva alguseks määratud aeg on möödunud, siis aga tänasesse päeva kuuluvatena. Kahte päeva kuuluvad tegevused ulatuvad üle selle serva, kuhu tegevuse suurim osa jääb.</long>
+            </locale>
+
+            <locale name="eu">
+                <short>Zein ordutan hasten da eguna (lehenetsia: 5:30 AM)</short>
+                <long>Jarduerak atzokoak balira bezala zenbatuko dira uneko ordua zehaztutako hasierako data baino lehenago bada; eta gaur denborarekin. Jarduerak bi egunetara zabal daitezke, jardueraren zatirik handienaren gainera jaurtiz.</long>
+            </locale>
+
+            <locale name="fi">
+                <short>Mihin aikaan päivä alkaa (oletuksena 5.30 aamulla)</short>
+                
+            </locale>
+
+            <locale name="fr">
+                <short>Heure de début de journée (5 h 30 par défaut)</short>
+                <long>Les activités sont comptabilisées dans la journée d&apos;hier si l&apos;heure actuelle précède l&apos;heure qui est spécifiée pour le début de la journée ; et dans celle d&apos;aujourd&apos;hui, si c&apos;est après. Les activités ayant cours sur 2 journées sont comptabilisées dans celle où la part la plus grande est effectuée.</long>
+            </locale>
+
+            <locale name="gl">
+                <short>En que momento comeza o día (o valor predeterminado é 5:30AM)</short>
+                <long>As actividades serán contadas como pertencentes a onte se o tempo actual é inferior ao día de inicio especificado e hoxe, se está sobre o tempo. As actividades con máis de dous días sacaranse ao lado onde a parte da actividade é máis longa.</long>
+            </locale>
+
+            <locale name="he">
+                <short>At what time does the day start (defaults to 5:30AM)</short>
+                <long>Activities will be counted as to belong to yesterday if the current time is less than the specified day start; and today, if it is over the time. Activities that span two days, will tip over to the side where the largest part of the activity is.</long>
+            </locale>
+
+            <locale name="hu">
+                <short>Mikor kezdődik a nap (az alapértelmezett érték DE 5.30)</short>
+                <long>A tevékenységek a tegnapi naphoz lesznek elszámolva, ha az aktuális idő kisebb a megadott napkezdő időnél, ellenkező esetben a maihoz. A két napra nyúló tevékenységek arra a napra fognak kerülni, amelyre a nagyobb részük esik.</long>
+            </locale>
+
+            <locale name="id">
+                <short>Pukul berapa hari dimulai (bawaan adalah 5:30)</short>
+                <long>Aktivitas akan dihitung milik kemarin bila waktu kini kurang dari awal hari yang dinyatakan; dan hari ini, bila lewat dari waktu itu. Aktivitas yang mencakup dua hari, akan jatuh ke sisi bagian terbesar aktivitas.</long>
+            </locale>
+
+            <locale name="it">
+                <short>Orario di inizio della giornata (predefinito alle 5.30)</short>
+                <long>Le attività verranno considerate: come del giorno precedente se l&apos;ora corrente è minore di quella specificata come inizio della giornata, come del giorno attuale se supera tale ora. Le attività che si estendono su due giorni verranno visualizzate dove si è svolta la maggior parte dell&apos;attività.</long>
+            </locale>
+
+            <locale name="ja">
+                <short>一日の開始時間(デフォルトは午前5:30)</short>
+                <long>現在の時間が一日の開始時間より前の場合、活動は昨日の集計に計上され、時間を超えたものが今日に集計されます。2日にまたがる活動は、活動の最大部分がある側から、反転します。</long>
+            </locale>
+
+            <locale name="ko">
+                <short>하루가 시작하는 시각 (기본값은 오전 5:30)</short>
+                <long>현재 시각이 지정한 하루의 시작 시각보다 이전이면 어제 날짜의 활동으로 취급되고, 하루의 시작 시각보다 나중이면 오늘 날짜의 활동으로 취급됩니다. 이틀에 걸쳐서 이루어진 활동의 경우 시간이 긴 쪽 날짜의 활동으로 취급됩니다.</long>
+            </locale>
+
+            <locale name="lt">
+                <short>Kada prasideda diena (numatytasis nustatymas – 5:30 ryto)</short>
+                <long>Veikla bus priskiriama vakardienai, jei dabartinis laikas yra ankstesnis už nurodytą dienos pradžią; arba šiandienai, jei dabartinis laikas yra vėlesnis už dienos pradžią. Veikla, trunkanti keletą dienų, bus priskirta tai dienai, kuriai priklauso didžioji veiklos trukmė.</long>
+            </locale>
+
+            <locale name="lv">
+                <short>Kad sākas diena (noklusētā vērtība ir 5:30 no rīta)</short>
+                <long>Ja pašreizējais laiks ir pirms norādītā dienas sākuma, darbības tiks pieskaitītas vakardienai, pretējā gadījumā - šodienai. Darbības, kas notiek divas dienas, tiks pieskaitītas tai dienai, kurā izdarīta lielākā daļa.</long>
+            </locale>
+
+            <locale name="mk">
+                <short>Кога започнува денот (стандардно е 5:30)</short>
+                <long>Активностите ќе се сметаат како да се од вчера ако тековното време е помало од одредениот почеток на денот, ако е после тоа време. Активностите кои се протегаат во два дена ќе се постават на денот каде што е најголем дел од активноста.</long>
+            </locale>
+
+            <locale name="nb">
+                <short>Tidspunkt for dagens start (forvalg er 05:30)</short>
+                
+            </locale>
+
+            <locale name="or">
+                <short>କେତେବେଳେ ଦିନ ଆରମ୍ଭ ହୋଇଥାଏ (ପୂର୍ବନିର୍ଦ୍ଧାରିତ 5:30AM)</short>
+                
+            </locale>
+
+            <locale name="pa">
+                <short>ਸਮਾਂ, ਜਦੋਂ ਦਿਨ ਸ਼ੁਰੂ ਹੁੰਦਾ ਹੈ (ਮੂਲ ੫:੩੦ ਸਵੇਰੇ)</short>
+                <long>ਸਰਗਰਮੀ ਨੂੰ ਕੱਲ੍ਹ ਵਾਲੀ ਨਾਲ ਸਬੰਧਿਤ ਗਿਣਿਆ ਜਾਵੇਗਾ, ਜੇ ਮੌਜੂਦਾ ਸਮਾਂ ਖਾਸ ਦਿਨ ਦੇ ਸ਼ੁਰੂ ਅਤੇ ਅੱਜਜ ਤੋਂ ਘੱਟ ਹੋਵੇਗਾ, ਜੇ ਇਹ ਸਮੇਂ ਤੋਂ ਵੱਧ ਹੈ। ਸਰਗਰਮੀਆਂ, ਜੋ ਦੋ ਦਿਨ ਲੈਂਦੀਆਂ ਹਨ, ਉੱਥੇ ਟਿੱਪ ਵਿੱਚ ਵੇਖਾਈਆਂ ਜਾਣਗੀਆਂ, ਜਿੱਥੇ ਸਰਗਰਮੀ ਦਾ ਸਭ ਤੋਂ ਵੱਡਾ ਭਾਗ ਹੁੰਦਾ ਹੈ।</long>
+            </locale>
+
+            <locale name="pl">
+                <short>Kiedy powinien rozpoczynać się dzień (domyślnie o 5:30)</short>
+                <long>Czynności będą liczone jako należące do dnia poprzedniego, jeśli bieżący czas jest wcześniejszy niż określony czas rozpoczęcia danego dnia, a jako należące do dnia dzisiejszego, jeśli ten czas minął. Czynności rozdzielone na dwa dni będą przesuwane na ten dzień, w którym odbyło się większość czasu czynności.</long>
+            </locale>
+
+            <locale name="pt">
+                <short>A que horas começa o dia (por omissão às 5h30 da manhã)</short>
+                <long>As actividades serão contabilizadas como pertencendo a ontem se a data actual for inferior ao início do dia; e a hoje se já passar dessa hora. Actividades que se prolonguem durante dois dias serão consideradas no dia em que ocorrer mais tempo de actividade.</long>
+            </locale>
+
+            <locale name="pt_BR">
+                <short>A que hora o dia inicia (padrão para 5:30)</short>
+                <long>Atividades serão contadas como se pertencessem a ontem se o horário atual for anterior ao início do dia especificado; e a hoje, se for depois desse horário. Atividades que durem dois dias serão colocadas no lado onde a maior parte das atividades estiver.</long>
+            </locale>
+
+            <locale name="ro">
+                <short>La ce oră începe ziua (implicit 5:30AM)</short>
+                <long>Activitățile vor fi contabilizate pentru ziua precedentă dacă timpul curent este mai mic decât startul zilei specificat și pentru astăzi dacă depășește timpul. Activitățile care se întind pe două zile vor fi contorizate pentru ziua în care este cea mai mare parte a activității.</long>
+            </locale>
+
+            <locale name="ru">
+                <short>Со скольки начинается день (по умолчанию с 5:30)</short>
+                <long>Занятия будут учитываться за вчерашний день, если текущее время меньше указанного начала дня, и за сегодняшний день, если больше этого времени. Занятия, которые перекрывают два дня, относятся к тому дню, на который пришлась большая часть времени.</long>
+            </locale>
+
+            <locale name="sl">
+                <short>Ob kateri uri se dan začne (privzeto 5:30)</short>
+                <long>Dejavnosti bodo označene kot včerajšnje, ko je trenutni čas manjši od časa določenega za začetek novega dne, sicer bodo označene kot današnje. Dejavnosti, ki trajajo več dni bodo označene glede na večinski del trajanja dneva.</long>
+            </locale>
+
+            <locale name="sr">
+                <short>Када почиње нови дан (подразумевано је 5:30)</short>
+                <long>Активности се сматрају јучерашњим уколико је тренутно време у прошлости у односу на дан почетка; данашњим ако је преко тог времена. Уколико активност обухвата два дана, она ће прећи у онај дан када је извршен већи део те активности.</long>
+            </locale>
+
+            <locale name="sr@latin">
+                <short>Kada počinje novi dan (podrazumevano je 5:30)</short>
+                <long>Aktivnosti se smatraju jučerašnjim ukoliko je trenutno vreme u prošlosti u odnosu na dan početka; današnjim ako je preko tog vremena. Ukoliko aktivnost obuhvata dva dana, ona će preći u onaj dan kada je izvršen veći deo te aktivnosti.</long>
+            </locale>
+
+            <locale name="sv">
+                <short>Vid vilken tidpunkt som dagen börjar (standard är 05.30)</short>
+                <long>Aktiviteter kommer att räknas som gårdagens om den aktuella tiden är mindre än den angivna dagens start, och idag, om den går över tiden. Aktiviteter som spänner över två dagar kommer att tippa över till den sida där den största delen av aktiviteten är.</long>
+            </locale>
+
+            <locale name="ta">
+                <short>நாளில் எந்த நேரத்தில் துவங்க வேண்டும்? (முன்னிருப்பு காலை ஐந்தரை)</short>
+                <long>நடப்பு நேரம் குறிப்பிட்ட துவக்க  நாளை விட குறைவாக இருந்தால் செயல்கள் நேற்றையதாக கொள்ளப்படும். அதிகமாக இருப்பின் இன்றையதாக கொள்ளப்படும். இரு நாட்களில் வியாபிக்கும் செய்ல்கள் அதிக நேரம் இருக்கும் நாளுக்கு தள்ளப்படும்.</long>
+            </locale>
+
+            <locale name="te">
+                <short>ఏ సమయానికి రోజు మొదలవుతుంది (5:30AM అప్రమేయం)</short>
+                <long>ఇవ్వాళ్టి సమయం మొదలవ్వక ముందే కార్యకలాపాలు మొదలుపెడెతే అవి నిన్నటికి చెందినవిగా,దాటాక మొదలుపెడితే రేపటికి చెందినవిగా గుర్తించబడతాయి.ఏవైనా కార్యకలాపాలు రెండు రోజుల పైబడి ఉంటే,  ప్రధాన భాగం ఉన్న  రోజుకిఅవి చెందుతాయి.</long>
+            </locale>
+
+            <locale name="ug">
+                <short>كۈن سائەت قانچىدە باشلىنىدۇ(سۈكۈت: 5:30 چۈشتىن بۇرۇن)</short>
+                <long>ھازىرقى ۋاقىت كۈنىنىڭ باشلىنىش ۋاقتىدىن كىچىك بولسا، پائالىيەتلەر تۈنۈگۈنگە تەۋە بولىدۇ. ئەگەر ئۇنىڭدىن ئۆتۈپ كەتسە پائالىيەتلەر ئىككى كۈنگە تەۋە بولىدۇ، ھەم كۆرسەتمىلەر قايسى كۈندىكى پائالىيەت ۋاقتى ئۇزۇن بولسا شۇنىڭدا كۆرسىتىلىدۇ.</long>
+            </locale>
+
+            <locale name="uk">
+                <short>О котрій починається день (типово 5:30)</short>
+                <long>Дії будуть записані на вчорашній день, якщо поточний час менший за вказаний у полі початок дня, і будуть записані на сьогодні, якщо час більший за початок дня. Дії, що охоплюють два дні, приписуються до дня, у якому зроблено більшу частину дії.</long>
+            </locale>
+
+            <locale name="zh_CN">
+                <short>一天的起始时间在何时 (默认时间到早上5:30)</short>
+                <long>如果当前时间少于从指定天开始到今天，则活动将被计算到昨天。如果活动跨了两天，则翻到活动时间最长的那天。</long>
+            </locale>
+
+            <locale name="zh_HK">
+                <short>這天開始的時刻 (預設為上午 5:30)</short>
+                <long>如果目前的時間尚未達到指定日子開始的時候，那麼活動會被算在昨天。跨越兩天的活動會跳到活動佔絕大的部分那天。</long>
+            </locale>
+
+            <locale name="zh_TW">
+                <short>這天開始的時刻 (預設為上午 5:30)</short>
+                <long>如果目前的時間尚未達到指定日子開始的時候，那麼活動會被算在昨天。跨越兩天的活動會跳到活動佔絕大的部分那天。</long>
+            </locale>
+        </schema>
+        <schema>
+            <key>/schemas/apps/hamster/workspace_tracking</key>
+            <applyto>/apps/hamster/workspace_tracking</applyto>
+            <owner>hamster</owner>
+            <type>list</type>
+            <list_type>string</list_type>
+            <default>[]</default>
+            <locale name="C">
+                <short>Should workspace switch trigger activity switch</short>
+                <long>
+                    List of enabled tracking methods. "name" will enable
+                    switching activities by name defined in workspace_mapping.
+                    "memory" will enable switching to the last activity when
+                    returning to a previous workspace.
+                </long>
+            </locale>
+
+            <locale name="af">
+                <short>Moet &apos;n wisseling van werkruimte ook &apos;n taakverandering teweegbring?</short>
+                <long>Lys van aktiewe tydregistrasie metodes. &quot;name&quot; bemoontlik die wisseling van take volgens naam, soos in die workspace_mapping gedefinieer. &quot;memory&quot; bemoontlik die wisseling na die vorige taak sodra daar na &apos;n werkruimte teruggekeer word.</long>
+            </locale>
+
+            <locale name="as">
+                <short>কৰ্মস্থানে ট্ৰিগাৰ কাৰ্য্য অদল-বদল কৰিব লাগে নে</short>
+                <long>সামৰ্থবান অনুসৰণ পদ্ধতিসমূহৰ তালিকা। &quot;name&quot; -এ workspace_mapping -ত নামেৰে বুজুৱা অদল-বদল কাৰ্য্যসমূহকসামৰ্থবান কৰিব। &quot;memory&quot; -এ পূৰৱৰ্তী কৰ্মস্থানলৈ ঘূৰী যাওতে সৰ্বশেষ কাৰ্য্যলে যোৱাটো সামৰ্থবান কৰিব।</long>
+            </locale>
+
+            <locale name="be">
+                <short>Ці павінна пераключэнне прасторы працы выклікаць пераключэнне занятку</short>
+                <long>Спіс уключаных спосабаў адсочвання. &quot;name&quot; - уключыць пераключэнне заняткаў па назве, у адпаведнасці са значэннем ключа &quot;workspace_mapping&quot;; &quot;memory&quot; - уключыць пераключэнне на апошні занятак пры вяртанні на папярэднюю прастору працы.</long>
+            </locale>
+
+            <locale name="bg">
+                <short>Дали смяната на плота означава и смяна на дейността</short>
+                <long>Списък с включените методи за проследяване. При „name“ смяната е според името, указано в ключа „workspace_mapping“. При „memory“ ще се превключва към последната дейност при преминаване към предишен работен плот.</long>
+            </locale>
+
+            <locale name="bn">
+                <short>Should workspace switch trigger activity switch</short>
+                
+            </locale>
+
+            <locale name="ca">
+                <short>Indica si en canviar d&apos;espai de treball s&apos;ha d&apos;activar el canvi d&apos;activitat</short>
+                <long>Llista dels mètodes de seguiment habilitats. «name» (nom) habilita el canvi d&apos;activitats pel nom que s&apos;hagi definit a workspace_mapping; «memory» (memòria) permet canviar a l&apos;última activitat quan es torna a un espai de treball anterior.</long>
+            </locale>
+
+            <locale name="ca@valencia">
+                <short>Indica si en canviar d&apos;espai de treball s&apos;ha d&apos;activar el canvi d&apos;activitat</short>
+                <long>Llista dels mètodes de seguiment habilitats. «name» (nom) habilita el canvi d&apos;activitats pel nom que s&apos;haja definit a workspace_mapping; «memory» (memòria) permet canviar a l&apos;última activitat quan es torna a un espai de treball anterior.</long>
+            </locale>
+
+            <locale name="cs">
+                <short>Může přepínač pracovních ploch spustit přepínač činnosti?</short>
+                <long>Seznam povolených metod sledování. Hodnota „name“ povolí přepínání činností podle názvu stanoveného v klíči workspace_mapping. Hodnota „memory“ povolí přepnutí na poslední činnost při návratu na předchozí pracovní plochu.</long>
+            </locale>
+
+            <locale name="da">
+                <short>Skal arbejdsområdeskift udløse aktivitetsskift</short>
+                <long>Liste af aktiverede sporingsmetoder. &quot;name&quot; vil aktivere skift efter navn, defineret i arbejdsområde_kortlægning. &quot;memory&quot; vil aktivere skift til sidste aktivitet, når der returneres til et tidligere arbejdsområde.</long>
+            </locale>
+
+            <locale name="de">
+                <short>Arbeitsflächenwechsel bedingt Tätigkeitswechsel</short>
+                <long>Liste der aktivierten Methoden zur Zeiterfassung. »name« aktiviert den Wechsel der Tätigkeit anhand des Namens, der in »workspace_mapping« festgelegt ist. »memory« aktiviert die letzte Tätigkeit bei der Rückkehr zur vorherigen Arbeitsfläche.</long>
+            </locale>
+
+            <locale name="el">
+                <short>Αν η αλλαγή σε χώρο εργασίας θα επιφέρει και αλλαγή δραστηριότητας</short>
+                <long>Λίστα από ενεργές μεθόδους καταγραφής.  Το &quot;name&quot; θα ενεργοποιεί την αλλαγή δραστηριοτήτων κατά το όνομα που καθορίζεται στο workspace_mapping. Το &quot;memory&quot; θα ενεργοποιεί την εναλλαγή στην προηγούμενη δραστηριότητα κατά την επιστροφή τον προηγούμενο χώρο εργασίας.</long>
+            </locale>
+
+            <locale name="en@shaw">
+                <short>𐑖𐑫𐑛 𐑢𐑻𐑒𐑕𐑐𐑱𐑕 𐑕𐑢𐑦𐑗 𐑑𐑮𐑦𐑜𐑻 𐑨𐑒𐑑𐑦𐑝𐑦𐑑𐑦 𐑕𐑢𐑦𐑗</short>
+                <long>𐑤𐑦𐑕𐑑 𐑝 𐑦𐑯𐑱𐑚𐑩𐑤𐑛 𐑑𐑮𐑨𐑒𐑦𐑙 𐑥𐑧𐑔𐑩𐑛𐑟. &quot;name&quot; 𐑢𐑦𐑤 𐑦𐑯𐑱𐑚𐑩𐑤 𐑕𐑢𐑦𐑗𐑦𐑙 𐑨𐑒𐑑𐑦𐑝𐑦𐑑𐑦𐑟 𐑚𐑲 𐑯𐑱𐑥 𐑛𐑦𐑓𐑲𐑯𐑛 𐑦𐑯 workspace_mapping. &quot;memory&quot; 𐑢𐑦𐑤 𐑦𐑯𐑱𐑚𐑩𐑤 𐑕𐑢𐑦𐑗𐑦𐑙 𐑑 𐑞 𐑤𐑭𐑕𐑑 𐑨𐑒𐑑𐑦𐑝𐑦𐑑𐑦 𐑢𐑧𐑯 𐑮𐑦𐑑𐑻𐑯𐑦𐑙 𐑑 𐑩 𐑐𐑮𐑰𐑝𐑦𐑩𐑕 𐑢𐑻𐑒𐑕𐑐𐑱𐑕.</long>
+            </locale>
+
+            <locale name="en_CA">
+                <short>Should workspace switch trigger activity switch</short>
+                <long>List of enabled tracking methods. &quot;name&quot; will enable switching activities by name defined in workspace_mapping. &quot;memory&quot; will enable switching to the last activity when returning to a previous workspace.</long>
+            </locale>
+
+            <locale name="en_GB">
+                <short>Should workspace switch trigger activity switch</short>
+                <long>List of enabled tracking methods. &quot;name&quot; will enable switching activities by name defined in workspace_mapping. &quot;memory&quot; will enable switching to the last activity when returning to a previous workspace.</long>
+            </locale>
+
+            <locale name="eo">
+                <short>Ĉu transiro inter laborspacoj ekigu aktiveco-ŝanĝon</short>
+                <long>Listo de ebligitaj ŝanĝospurilaj metodoj. &quot;name&quot; ebligos ŝanĝi activaĵojn per nomo difinita en workspace_mapping. &quot;memory&quot; ebligos ŝanĝi al la lasta aktivaĵo kiam reiranta al antaŭa laborspaco.</long>
+            </locale>
+
+            <locale name="es">
+                <short>Indica si al cambiar de área de trabajo se cambia de actividad</short>
+                <long>Lista de métodos de seguimiento activados. «name» activará el cambio de actividades por nombre definido en «workspace_mapping», «memory» activará el cambio a la última actividad al volver al área de trabajo anterior.</long>
+            </locale>
+
+            <locale name="et">
+                <short>Kas tööala vahetus peaks valla päästma tegevuse vahetuse</short>
+                <long>Lubatud jälitusmeetodite loend. &quot;nimi&quot; põhjustab tegevuste vahetamise workspace_mapping väärtuses antud nime järgi. &quot;memory&quot; puhul lülitatakse eelmisele tööalale naasmisel seal toimunud tegevusele.</long>
+            </locale>
+
+            <locale name="eu">
+                <short>Laneko areaz aldatzean jarduera aldatuko duen edo ez adierazten du.</short>
+                <long>Gaitutako jarraipenen metodoen zerrenda. &quot;name&quot; (izena) balioak &apos;workspace_mapping&apos; gakoan definitutako izenen arabera jarduerak aldatzea gaitzen du. &quot;memory&quot; balioak berriz, aurreko laneko areara itzultzean azkenengo jarduerara aldatzea gaitzen du.</long>
+            </locale>
+
+            <locale name="fi">
+                <short>Pitäisikö työtilan vaihdon johtaa toimen vaihtoon</short>
+                
+            </locale>
+
+            <locale name="fr">
+                <short>Indique si le changement d&apos;espace de travail doit déclencher un changement d&apos;activité</short>
+                <long>Liste des méthodes de suivi actives. « name » active le changement d&apos;activités par nom défini dans workspace_mapping. « memory » active le changement vers la dernière activité en cas de retour dans un espace de travail précédent.</long>
+            </locale>
+
+            <locale name="gl">
+                <short>Se debe o cambio de cambio de espazo de traballo cambiar de actividade</short>
+                <long>Lista dos métodos de seguimento activados.«name» permitirá cambiar as actividades polo nome definido en workspace_mapping. «memory» permite cambiar á última actividade ao volver ao espazo de traballo anterior.</long>
+            </locale>
+
+            <locale name="he">
+                <short>Should workspace switch trigger activity switch</short>
+                <long>List of enabled tracking methods. &quot;name&quot; will enable switching activities by name defined in workspace_mapping. &quot;memory&quot; will enable switching to the last activity when returning to a previous workspace.</long>
+            </locale>
+
+            <locale name="hu">
+                <short>A munkaterület-váltás együtt jár-e tevékenységváltással</short>
+                <long>Az elérhető nyilvántartási módok listája. A „name” (név) engedélyezi a tevékenységek közötti név szerinti váltást a workspace_mapping kulcsban megadott módon. A „memory” (memória) engedélyezi az utolsó tevékenységre váltást, amikor visszatér az előző munkaterületre.</long>
+            </locale>
+
+            <locale name="id">
+                <short>Mestikah bertukar ruang kerja memicu pertukaran aktivitas</short>
+                <long>Daftar metoda pelacakan yang difungsikan. &quot;name&quot; akan mengaktifkan pertukaran aktivitas berdasarkan nama yang didefinisikan dalam workspace_mapping. &quot;memory&quot; akan mengaktifkan pertukaran ke aktivitas terakhir ketika kembali ke ruang kerja sebelumnya.</long>
+            </locale>
+
+            <locale name="it">
+                <short>Indica se il cambio di spazio di lavoro debba cambiare attività</short>
+                <long>Elenco di metodi di conteggio abilitati: &quot;name&quot; abilita il cambio di attività per nome, come definito in workspace_mapping; &quot;memory&quot; abilita il passaggio all&apos;ultima attività quando si ritorna in uno spazio di lavoro precedente.</long>
+            </locale>
+
+            <locale name="ja">
+                <short>ワークスペース切り替え時に動作を切り替えます</short>
+                <long>利用可能な記録手法のリストです。&quot;name&quot;は workspace_mapping で定義されている名前で活動を切り替え可能にします。&quot;memory&quot; は、前のワークスペースに戻るときに、そこで最後の活動に変更します。</long>
+            </locale>
+
+            <locale name="ko">
+                <short>작업 공간을 전환하면 활동을 전환합니다</short>
+                <long>사용하는 추적 방법 목록. &quot;name&quot;이면 workspace_mapping에서 정의한 활동으로 전환합니다. &quot;memory&quot;면 작업 공간으로 돌아가면 최근 활동으로 전환합니다.</long>
+            </locale>
+
+            <locale name="lt">
+                <short>Ar darbalaukio pakeitimas turėtų pakeisti veiklą</short>
+                <long>Įjungtų sekimo metodų sąrašas. „name“ – leidžia perjungti veiklą pagal pavadinimą, apibrėžtą rakte workspace_mapping. „memory“ – leidžia perjungti į paskutiniąją veiklą, grįžus į ankstesnį darbalaukį.</long>
+            </locale>
+
+            <locale name="lv">
+                <short>Vai darbvirsmas pārslēgšanai vajadzētu pārslēgt darbības</short>
+                <long>Ieslēgto uzskaites metožu saraksts. &quot;name&quot; ieslēgs pārslēgšanos pēc workspace_mapping definētajiem nosaukumiem. &quot;memory&quot; ieslēgs pārslēgšanos uz pēdējo darbību, atgriežoties pie iepriekš lietotas darbvirsmas.</long>
+            </locale>
+
+            <locale name="mk">
+                <short>Дали менувањето на работното место треба да предизвика менување на активноста</short>
+                <long>Листа на овозможени методи на следење. „name“ ќе овозможи преминување на активности дефинирани во workspace_mapping. „memory“ ќе овозможи преминување на последната активност при враќање на претходниот работен простор.</long>
+            </locale>
+
+            <locale name="nb">
+                <short>Hvorvidt bytte av arbeidsområde skal utløse bytte av aktivitet</short>
+                
+            </locale>
+
+            <locale name="pa">
+                <short>ਕੀ ਵਰਕਸਪੇਸ ਬਦਲਣ ਨਾਲ ਐਕਟਿਵੀ ਬਦਲੀ ਜਾਵੇ</short>
+                <long>ਚਾਲੂ ਟਰੈਕਿੰਗ ਢੰਗਾਂ ਦੀ ਲਿਸਟ ਹੈ। &quot;ਨਾਂ&quot; workspace_mapping ਵਿੱਚ ਦਿੱਤੇ ਨਾਂ ਮੁਤਾਬਕ ਸਰਗਰਮੀ ਬਦਲਣਾ ਚਾਲੂ ਕਰੇਗਾ। &quot;ਮੈਮੋਰੀ&quot; ਪਿਛਲੀ ਵਰਕਸਪੇਸ ਵਿੱਚ ਜਾਣ ਸਮੇਂ ਆਖਰੀ ਸਰਗਰਮੀ ਲਈ ਬਦਲੇਗਾ।</long>
+            </locale>
+
+            <locale name="pl">
+                <short>Określa, czy przełączenie obszaru roboczego wywołuje przełączenie czynności</short>
+                <long>Lista włączonych metod śledzenia. Wartość &quot;name&quot; włączy przełączanie czynności według nazwy określonej w kluczu &quot;workspace_mapping&quot;. Wartość &quot;memory&quot; włączy przełączanie na ostatnią czynność podczas powracania na poprzedni obszar roboczy.</long>
+            </locale>
+
+            <locale name="pt">
+                <short>Deverá a alteração da área de trabalho causar uma alteração de actividade</short>
+                <long>Lista dos métodos de registo activos. &quot;name&quot; irá activar a alternância de actividades por nome definido na chave workspace_mapping. &quot;memory&quot; permite a alternância para a última actividade ao regressar a uma área de trabalho anterior.</long>
+            </locale>
+
+            <locale name="pt_BR">
+                <short>A troca do espaço de trabalho deve acionar troca de atividade</short>
+                <long>Lista dos métodos de registro habilitados. &quot;name&quot; habilitará a troca de atividades por nome definidas no workspace_mapping. &quot;memory&quot; habilitará a troca para a última atividade ao retornar para o espaço de trabalho anterior.</long>
+            </locale>
+
+            <locale name="ro">
+                <short>Dacă comutarea spațiului de lucru declanșează o comutare a activității</short>
+                <long>Listă de metode de urmărire activate. „name” va activa comutarea activităților după nume definit în workspace_mapping. „memory” va activa comutarea la ultima activitate la întoarcerea într-un spațiu de lucru anterior.</long>
+            </locale>
+
+            <locale name="ru">
+                <short>Должно ли переключение рабочего места переключать задачу</short>
+                <long>Список используемых методов учёта. «name» — включить переключение занятий по именам, определённым в workspace_mapping; «memory» — включить переключение на последнее занятие при возвращении к предыдущему рабочему месту.</long>
+            </locale>
+
+            <locale name="sl">
+                <short>Ali naj preklop delovne površine preklopi dejavnosti</short>
+                <long>Seznam omogočenih načinov sledenja. &quot;Ime&quot; omogoči preklop dejavnosti po imenu določenem med možnostmi workspace_mapping, &quot;pomnilnik&quot; pa preklopi zadnjo dejavnost ob vračanju na predhodno delovno površino.</long>
+            </locale>
+
+            <locale name="sr">
+                <short>Да ли прекидач радног простора треба да укључује и активност</short>
+                <long>Списак укључених начина праћења. „name“ (назив) ће омогућити пребацивање активности по именима из workspace_mapping. „memory“ (меморија) ће омогућити пребацивање на последњу активности при повратку на претходни радни простор.</long>
+            </locale>
+
+            <locale name="sr@latin">
+                <short>Da li prekidač radnog prostora treba da uključuje i aktivnost</short>
+                <long>Spisak uključenih načina praćenja. „name“ (naziv) će omogućiti prebacivanje aktivnosti po imenima iz workspace_mapping. „memory“ (memorija) će omogućiti prebacivanje na poslednju aktivnosti pri povratku na prethodni radni prostor.</long>
+            </locale>
+
+            <locale name="sv">
+                <short>Ska växling av arbetsyta generera aktivitetsväxling</short>
+                <long>Lista över aktiverade mätmetoder. &quot;name&quot; kommer att aktivera växling av aktivitet efter namn i workspace_mapping. &quot;memory&quot; kommer att aktivera växling till senaste aktivitet vid när man återvänder till en tidigare arbetsyta.</long>
+            </locale>
+
+            <locale name="ta">
+                <short>வேலைக்களம் மாற்றுவது செயலையும் பாதிக்க வேண்டுமா?</short>
+                <long>தடத்தொடர்தலுக்கு செயலாக்கிய முறைகளின் பட்டியல். &quot;பெயர்&quot; என்பது  workspace_mapping இல் அறுதியான பெயரால் மாற்றும் செயல்களை நடத்தும். &quot;நினைவகம்&quot;என்பது முந்தைய வேலைக்களத்தின் கடைசி  மாற்றும்  செயலுக்கு செயலாக்கும். </long>
+            </locale>
+
+            <locale name="te">
+                <short>కార్యస్థలం మారితే కార్యం మారినట్టు గుర్తించాలా</short>
+                <long>సశక్తంగా ఉన్న జాడకాల బాజితా. &quot;పేరు&quot; ద్వారా కార్యకలాపాల మధ్య, వాటికి కార్యస్థలాల మ్యాపింగ్ (_m) లో నిర్దేశించినపేర్లను బట్టి మారవచ్చు. &quot;జ్ఞాపకం&quot; ద్వారా మునుపటి కార్యస్థలానికి తిరిగివెళ్ళినప్పుడు అక్కడి చివరి కార్యానికి మారవచ్చు.</long>
+            </locale>
+
+            <locale name="ug">
+                <short>خىزمەت بوشلۇقى ئايلاندۇرۇش پائالىيەت ئالماشتۇرۇشنى كەلتۈرۈپ چىقىرىدۇ</short>
+                <long>ئىزلاشقا يول قويىدىغان ئۇسۇل تىزىمى. &quot;name&quot; خىزمەت رايونى تەسۋىرىدە ئېنىقلانغان ئات ئارقىلىق پائالىيەت ئايلاندۇرۇشقا يول قويىدۇ. &quot;memory&quot; ئالدىنقى خىزمەت رايونىغا قايتقاندا ئالدىنقى قېتىملىق پائالىيەتكە ئالماشتۇرىدۇ.</long>
+            </locale>
+
+            <locale name="uk">
+                <short>Чи потрібно перемикати робочого місця перемикати задачу</short>
+                <long>Список використаних способів звіту. Значення «name» враховує перемикання зайнята за назвами, визначеннями у workspace_mapping. Значення «memory» враховує перемикання на останнє заняття при повернені до попереднього робочого простору.</long>
+            </locale>
+
+            <locale name="zh_CN">
+                <short>应该是工作区转换触发活动转换</short>
+                <long>允许跟踪的方法列表。 &quot;name&quot; 将允许通过在工作区映射中定义的名字来转换活动。“memory&quot; 将允许当返回到之前的工作区时转换到上一次活动。</long>
+            </locale>
+
+            <locale name="zh_HK">
+                <short>工作區的切換是否應觸發活動的切換</short>
+                <long>已啟用追蹤方法的清單。「name」(名稱) 會啟用根據 workspace_mapping 中定義的名稱切換活動。「memory」(記憶) 會啟用在返回上一個工作區時切換到上次的活動。</long>
+            </locale>
+
+            <locale name="zh_TW">
+                <short>工作區的切換是否應觸發活動的切換</short>
+                <long>已啟用追蹤方法的清單。「name」(名稱) 會啟用依 workspace_mapping 中定義的名稱切換活動。「memory」(記憶) 會啟用在返回上一個工作區時切換到上次的活動。</long>
+            </locale>
+        </schema>
+        <schema>
+            <key>/schemas/apps/hamster/workspace_mapping</key>
+            <applyto>/apps/hamster/workspace_mapping</applyto>
+            <owner>hamster</owner>
+            <type>list</type>
+            <list_type>string</list_type>
+            <default>[]</default>
+            <locale name="C">
+                <short>Switch activity on workspace change</short>
+                <long>
+                    If switching by name is enabled, this list sets the activity
+                    names that should be switched to, workspaces represented by
+                    the index of item.
+                </long>
+            </locale>
+
+            <locale name="af">
+                <short>Verander taak met wisseling van werkruimte</short>
+                <long>Indien oorskakeling volgens naam aan is, sal hierdie lys die taakname stel waarheen oorgeskakel moet word, met die werkruimtes wat deur die item se indeks verteenwoordig word.</long>
+            </locale>
+
+            <locale name="as">
+                <short>কৰ্মস্থান সলনি হওতে কাৰ্য্য অদল-বদল কৰা</short>
+                <long>যদি নামেৰে অদল-বদল কৰা সামৰ্থবান হয়, তেনেহলে এই তালিকায় অদল-বদল হ&apos;ব লগিয়া কাৰ্য্যৰ নামসমূহ, বস্তুৰ ইনডেক্স দি প্ৰতিৰূপন হোৱা কাৰ্য্যস্থানসমূহলে সংস্থাপন কৰে।</long>
+            </locale>
+
+            <locale name="be">
+                <short>Пераключаць занятак пры змяненні прасторы працы</short>
+                <long>Калі ўключана пераключэнне па назве, гэты спіс прызначае назвы заняткаў для пераключэння, прасторы працы, прадстаўленыя індэксамі элементаў.</long>
+            </locale>
+
+            <locale name="bg">
+                <short>Смяна на дейността при смяна на плота</short>
+                <long>Ако смяната по име е включена, списъкът задава имената на дейностите, към които да се превключва. Работните плотове се представят с индекса на дейността.</long>
+            </locale>
+
+            <locale name="bn">
+                <short>Switch activity on workspace change</short>
+                <long>If switching by name is enabled, this list sets the activity names that should be switched to, workspaces represented by the index of item.</long>
+            </locale>
+
+            <locale name="ca">
+                <short>Canvia d&apos;activitat en canviar d&apos;espai de treball</short>
+                <long>Si s&apos;ha habilitat l&apos;opció de canvi d&apos;activitat per nom, en aquesta llista s&apos;estableixen els noms d&apos;activitat a què es podrà canviar. Els espais de treball es representen mitjançant l&apos;índex de l&apos;element.</long>
+            </locale>
+
+            <locale name="ca@valencia">
+                <short>Canvia d&apos;activitat en canviar d&apos;espai de treball</short>
+                <long>Si s&apos;ha habilitat l&apos;opció de canvi d&apos;activitat per nom, en esta llista s&apos;estableixen els noms d&apos;activitat a què es podrà canviar. Els espais de treball es representen mitjançant l&apos;índex de l&apos;element.</long>
+            </locale>
+
+            <locale name="cs">
+                <short>Přepnout činnost při změně pracovní plochy</short>
+                <long>Pokud je přepínání podle názvu povoleno, tento seznam stanoví názvy činností, které mohou být přepnuty na pracovní plochy reprezentované seznamem položek.</long>
+            </locale>
+
+            <locale name="da">
+                <short>Skift aktivitet ved arbejdsområdeskift</short>
+                <long>Hvis skift efter navn er aktiveret, vil denne liste indeholde de aktivitetsnavne som der skal skiftes til, arbejdsområder repræsenteret ved objektets indeks.</long>
+            </locale>
+
+            <locale name="de">
+                <short>Tätigkeit bei Arbeitsflächenwechsel ebenfalls wechseln</short>
+                <long>Falls der Wechsel anhand des Namens aktiviert ist, gibt diese Liste die Namen an, zu denen gewechselt werden soll. Arbeitsflächen werden durch den Index des Eintrags dargestellt.</long>
+            </locale>
+
+            <locale name="el">
+                <short>Αλλαγή δραστηριότητας κατά την αλλαγή χώρου εργασίας</short>
+                <long>Αν η αλλαγή κατά όνομα είναι ενεργή, αυτή η λίστα θα παρουσιάζει τα ονόματα των δραστηριοτήτων που θα πρέπει να μεταβείτε.</long>
+            </locale>
+
+            <locale name="en@shaw">
+                <short>𐑕𐑢𐑦𐑗 𐑨𐑒𐑑𐑦𐑝𐑦𐑑𐑦 𐑪𐑯 𐑢𐑻𐑒𐑕𐑐𐑱𐑕 𐑗𐑱𐑯𐑡</short>
+                <long>𐑦𐑓 𐑕𐑢𐑦𐑗𐑦𐑙 𐑚𐑲 𐑯𐑱𐑥 𐑦𐑟 𐑦𐑯𐑱𐑚𐑩𐑤𐑛, 𐑞𐑦𐑕 𐑤𐑦𐑕𐑑 𐑕𐑧𐑑𐑕 𐑞 𐑨𐑒𐑑𐑦𐑝𐑦𐑑𐑦 𐑯𐑱𐑥𐑟 𐑞𐑨𐑑 𐑖𐑫𐑛 𐑚𐑰 𐑕𐑢𐑦𐑗𐑑 𐑑, 𐑢𐑻𐑒𐑕𐑐𐑱𐑕𐑩𐑟 𐑮𐑧𐑐𐑮𐑩𐑟𐑧𐑯𐑑𐑩𐑛 𐑚𐑲 𐑞 𐑦𐑯𐑛𐑧𐑒𐑕 𐑝 𐑲𐑑𐑩𐑥.</long>
+            </locale>
+
+            <locale name="en_CA">
+                <short>Switch activity on workspace change</short>
+                <long>If switching by name is enabled, this list sets the activity names that should be switched to, workspaces represented by the index of item.</long>
+            </locale>
+
+            <locale name="en_GB">
+                <short>Switch activity on workspace change</short>
+                <long>If switching by name is enabled, this list sets the activity names that should be switched to, workspaces represented by the index of item.</long>
+            </locale>
+
+            <locale name="eo">
+                <short>Ŝanĝi al alia aktivaĵo je ŝanĝo de laborspaco</short>
+                <long>Se baskuligo per nomo estas eblegita, ĉi tiu listo difinas la aktiveconomojn al kiuj transiri, laborspacoj reprezentitaj per la indekso de eroj.</long>
+            </locale>
+
+            <locale name="es">
+                <short>Cambiar actividad al cambiar de área de trabajo</short>
+                <long>Si el cambio por nombre está activado, esta lista configura los nombres de las actividades a las que se debería cambiar; las áreas de trabajo están representadas por el índice del elemento.</long>
+            </locale>
+
+            <locale name="et">
+                <short>Tööala vahetamisel vahetatakse tegevust</short>
+                <long>Kui nime järgi lülitumine on lubatud, siis see loend määrab tegevuste nimed, millele tuleks tööala vahetamisel lülituda.</long>
+            </locale>
+
+            <locale name="eu">
+                <short>Aldatu jardueraz laneko areaz aldatzean</short>
+                <long>Izenen arabera aldatzea gaituta badago, zerrenda honek alda daitezkeen jardueren izenak ezartzen ditu, elementuen indizeek laneko areak adierazten dituzte.</long>
+            </locale>
+
+            <locale name="fi">
+                <short>Vaihda toimea kun työtila vaihtuu</short>
+                <long>Jos vaihtaminen nimellä on käytössä, tämä luettelo määritää toimien nimet, joihinka vaihdetaan ja työtilat edustavat kohdan indeksiä.</long>
+            </locale>
+
+            <locale name="fr">
+                <short>Changer d&apos;activité lorsqu&apos;on change d&apos;espace de travail</short>
+                <long>Si le changement par nom est actif, cette liste donne les noms d&apos;activité auxquelles on pourra passer, les espaces de travail sont représentés par l&apos;indice de l&apos;élément.</long>
+            </locale>
+
+            <locale name="gl">
+                <short>Cambiar a actividade ao cambiar de espazo de traballo</short>
+                <long>Se cambiar polo nome está activado, esta lista estabelece os nomes de actividade aos que debe cambiar, os espazos de traballo representados polo índice do elemento</long>
+            </locale>
+
+            <locale name="he">
+                <short>Switch activity on workspace change</short>
+                <long>If switching by name is enabled, this list sets the activity names that should be switched to, workspaces represented by the index of item.</long>
+            </locale>
+
+            <locale name="hu">
+                <short>Tevékenységváltás munkaterület-váltáskor</short>
+                <long>Ha a váltás név szerint lehetőség engedélyezve van, ez a lista beállítja azon tevékenységneveket, amelyekre váltani kell. A munkaterületeket az elemek indexe jelzi.</long>
+            </locale>
+
+            <locale name="id">
+                <short>Tukar aktivitas pada perubahan ruang kerja</short>
+                <long>Bila pertukaran berdasarkan nama diaktifkan, daftar ini menata nama aktivitas yang mesti dituju, ruang kerja diwakili oleh index butir.</long>
+            </locale>
+
+            <locale name="it">
+                <short>Cambia attività al cambio dello spazio di lavoro</short>
+                <long>Indica se il cambio per nome è abilitato, questo elenco imposta i nomi delle attività a cui passare, gli spazi di lavoro sono rappresentati dall&apos;indice dell&apos;elemento.</long>
+            </locale>
+
+            <locale name="ja">
+                <short>ワークスペースの変更時に動作を切り替えます。</short>
+                <long>名前で切り替え可能にする場合、このリストは切り替える活動の名前に設定し、ワークスペースはアイテムのインデックスで再表示されます。</long>
+            </locale>
+
+            <locale name="ko">
+                <short>작업 공간을 바꾸면 활동 전환</short>
+                <long>이름으로 전환하는 경우, 이 목록에서 전환할 활동의 이름을 설정합니다. 목록의 항목은 순서대로 해당 번호의 작업 공간에 해당하는 활동입니다.</long>
+            </locale>
+
+            <locale name="lt">
+                <short>Keisti veiklą pakeitus darbalaukį</short>
+                <long>Jei perjungimas pagal pavadinimą įjungtas, šis sąrašas nustato veiklų, į kurias persijungti, pavadinimus. Darbalaukius atitinka įrašų indeksai.</long>
+            </locale>
+
+            <locale name="lv">
+                <short>Pārslēgt darbību reizē ar darbvirsmu</short>
+                <long>Ja ieslēgta pārslēgšanās pēc nosaukuma, šis saraksts norāda darbību nosaukumus, uz kurām jāpārslēdzas. Indeksi apzīmē darbvirsmas.</long>
+            </locale>
+
+            <locale name="mk">
+                <short>Смени ја активноста при промена на работното место</short>
+                <long>Ако е овозможено менување по име, оваа листа ги поставува имињата на активностите кои треба да се менуваат, работните простори определени со индексот на предметот.</long>
+            </locale>
+
+            <locale name="nb">
+                <short>Bytt aktivitet ved bytte av arbeidsområde</short>
+                
+            </locale>
+
+            <locale name="or">
+                <short>କାର୍ଯ୍ଯକ୍ଷେତ୍ର ପରିବର୍ତ୍ତନ ହେଲେ କାର୍ଯ୍ୟକ୍ରମକୁ ବଦଳାନ୍ତୁ</short>
+                
+            </locale>
+
+            <locale name="pa">
+                <short>ਵਰਕਸਪੇਸ ਬਦਲਣ ਨਾਲ ਸਰਗਰਮੀ ਬਦਲੋ</short>
+                <long>ਜੇ ਨਾਂ ਰਾਹੀਂ ਬਦਲਣਾ ਚਾਲੂ ਕੀਤਾ ਤਾਂ, ਇਹ ਲਿਸਟ ਨੂੰ ਸਰਗਰਮੀ ਨਾਲ ਲਈ ਸੈੱਟ ਕੀਤਾ ਜਾਵੇਗਾ, ਜਿਸ ਲਈ ਬਦਲਣਾ ਹੈ, ਵਰਕਸਪੇਸ ਆਈਟਮ ਦੇ ਇੰਡੈਕਸ ਨਾਲ ਦਰਸਾਇਆ ਜਾਂਦਾ ਹੈ।</long>
+            </locale>
+
+            <locale name="pl">
+                <short>Przełączenie czynności po zmianie obszaru roboczego</short>
+                <long>Jeśli włączone jest przełączanie według nazwy, to ta lista ustawia nazwy czynności, na które można się przełączyć, z obszarem roboczym prezentowanym przez indeks elementów.</long>
+            </locale>
+
+            <locale name="pt">
+                <short>Alterar a actividade ao alternar de área de trabalho</short>
+                <long>Se estiver activa a alternância manual, esta lista define os nomes das actividades para as quais se deveria alternar, áreas de trabalho representadas pelo índice no item.</long>
+            </locale>
+
+            <locale name="pt_BR">
+                <short>Troca atividade ao alterar o espaço de trabalho</short>
+                <long>Se a troca por nomes estiver habilitada, esta lista define os nomes das atividades para as quais devem ser trocadas, com os espaços de trabalho representados pelo índice do item.</long>
+            </locale>
+
+            <locale name="ro">
+                <short>Comută activitatea la comutarea spațiului de lucru</short>
+                <long>Dacă comutarea după nume este activată, această listă definește numele activităților la care se comută, spațiile de lucru reprezentate prin indexul elementului.</long>
+            </locale>
+
+            <locale name="ru">
+                <short>Переключать занятие при смене рабочего места</short>
+                <long>Если включено переключение по имени, этот список устанавливает названия занятий, которые следует переключать. Рабочие места представлены индексом элемента.</long>
+            </locale>
+
+            <locale name="sl">
+                <short>Preklopi dejavnost ob preklopu delovne površine</short>
+                <long>V primeru, da je omogočen preklop po imenu, se s seznamom določijo imena dejavnosti, ki bodo preklopljene, delovne površine pa so predstavljene z določili predmeta.</long>
+            </locale>
+
+            <locale name="sr">
+                <short>Промени активност при промени радног простора</short>
+                <long>Уколико је укључено пребацивање по имену, овај списак поставља имена активности на које се треба пребацити (радни простори представљени њиховим индексима).</long>
+            </locale>
+
+            <locale name="sr@latin">
+                <short>Promeni aktivnost pri promeni radnog prostora</short>
+                <long>Ukoliko je uključeno prebacivanje po imenu, ovaj spisak postavlja imena aktivnosti na koje se treba prebaciti (radni prostori predstavljeni njihovim indeksima).</long>
+            </locale>
+
+            <locale name="sv">
+                <short>Växla aktivitet vid byte av arbetsyta</short>
+                <long>Om växling efter namn är aktiverat kommer denna lista att ställa in aktivitetsnamnen som ska växlas till, arbetsytor representeras av indexet för objektet.</long>
+            </locale>
+
+            <locale name="ta">
+                <short>செயலை வேலைக்கள் மாற்றத்துக்கு மாற்றவும்.</short>
+                <long>பெயரால் மாற்றுவது செயலில் உள்ளது. இந்த பட்டியல் மாற்ற வேண்டிய செயல் பெயரை அமைக்கிறது. வேலைக்களங்கள் உருப்படியின் அட்டவணையால் காட்டப்படும்.</long>
+            </locale>
+
+            <locale name="te">
+                <short>కార్యస్థలం మారినప్పుడు కార్యం మార్చు</short>
+                <long>పేరు ద్వారా మార్చడానికి అమర్చినట్టైతే,  మారడానికి ఉన్న ఆయా కార్యకలాపాల పేర్లను ఈ జాబితా పొందుచేస్తుంది. కార్యస్థలాలు వాటివాటి సూచీలతో గుర్తించబడతాయి.</long>
+            </locale>
+
+            <locale name="ug">
+                <short>خىزمەت بوشلۇقى ئۆزگەرگەندە پائالىيەتنى ئالماشتۇر</short>
+                <long>ئەگەر ئات بويىچە ئۆزگەرتىش قوزغىتىلسا، بۇ تىزىم ئايلاندۇرۇلىدىغان پائالىيەت ئاتى، تۈرنىڭ  ئىندېكسىنىڭ ۋەكىللىك قىلىدىغان خىزمەت رايونىنى تەڭشەيدۇ</long>
+            </locale>
+
+            <locale name="uk">
+                <short>Перемикати зайняття при зміні робочого місця</short>
+                <long>Якщо увімкнено, перемикання за назвою, цей список встановлює назви занять, які слід перемикати. Робочі місця представлені індексом елементи.</long>
+            </locale>
+
+            <locale name="zh_CN">
+                <short>当工作区改变时，转换活动</short>
+                <long>如果启用按名称转换，该列表会设置应该被转换的活动名称，条目的索引代表工作区</long>
+            </locale>
+
+            <locale name="zh_HK">
+                <short>工作區改變時切換活動</short>
+                <long>如果啟用根據名稱切換，這個清單設定了應該被切換的活動名稱，項目的索引代表工作區。</long>
+            </locale>
+
+            <locale name="zh_TW">
+                <short>工作區改變時切換活動</short>
+                <long>如果啟用依名稱切換，這個清單設定了應該被切換的活動名稱，項目的索引代表工作區。</long>
+            </locale>
+        </schema>
+
+
+        <schema>
+            <key>/schemas/desktop/gnome/keybindings/hamster/activate_hamster_window</key>
+            <applyto>/desktop/gnome/keybindings/hamster/activate_hamster_window</applyto>
+            <owner>hamster</owner>
+            <type>string</type>
+            <default></default>
+            <locale name="C">
+                <short>Show / hide Time Tracker Window</short>
+                <long>Keyboard shortcut for showing / hiding the Time Tracker window.</long>
+            </locale>
+
+            <locale name="af">
+                <short>Wys / verskuil die Tydregister-venster</short>
+                <long>Sleutelbordkortpad om die Tydregister venster te wys / verskuil.</long>
+            </locale>
+
+            <locale name="ar">
+                <short>إظهار وإخفاء نافذة مقتفي الوقت</short>
+                <long>اختصار لوحة المفاتيح لإظهار وإخفاء نافذة مقتفي الوقت</long>
+            </locale>
+
+            <locale name="as">
+                <short>সময় অনুসৰণৰ উইন্ডো দেখুৱা/লুকোৱা</short>
+                <long>সময় অনুসৰণৰ উইন্ডো দেখুৱাবলে/লুকাবলে কিবৰ্ড ছৰ্টকাট।</long>
+            </locale>
+
+            <locale name="be">
+                <short>Ці трэба паказваць акно Трэкера часу</short>
+                <long>Клавіятурны скарот для паказу ці хавання акна Трэкера часу.</long>
+            </locale>
+
+            <locale name="bg">
+                <short>Показване и скриване на прозореца за отчитане на времето.</short>
+                <long>Клавишна комбинация за показване и скриване на прозореца за отчитане на времето.</long>
+            </locale>
+
+            <locale name="ca">
+                <short>Mostra/oculta la finestra del comptador de temps</short>
+                <long>Drecera de teclat per mostrar o ocultar la finestra del comptador de temps.</long>
+            </locale>
+
+            <locale name="ca@valencia">
+                <short>Mostra/oculta la finestra del comptador de temps</short>
+                <long>Drecera de teclat per mostrar o ocultar la finestra del comptador de temps.</long>
+            </locale>
+
+            <locale name="cs">
+                <short>Zobrazit / skrýt okno Sledování času</short>
+                <long>Klávesová zkratka pro zobrazení / skrytí okna Sledování času.</long>
+            </locale>
+
+            <locale name="da">
+                <short>Vis/skjul tidsstyringsvinduet</short>
+                <long>Tastaturgenvej for at vise/skjule tidsstyringsvinduet.</long>
+            </locale>
+
+            <locale name="de">
+                <short>Zeiterfassungsfenster anzeigen/verbergen</short>
+                <long>Tastenkürzel um das Zeiterfassungsfenster anzuzeigen/zu verbergen.</long>
+            </locale>
+
+            <locale name="el">
+                <short>Εμφάνιση / απόκρυψη παραθύρου καταγραφής χρόνου.</short>
+                <long>Συντόμευση πληκτρολογίου για εμφάνιση / απόκρυψη του παραθύρου της καταγραφής χρόνου.</long>
+            </locale>
+
+            <locale name="en_CA">
+                <short>Show / hide Time Tracker Window</short>
+                <long>Keyboard shortcut for showing / hiding the Time Tracker window.</long>
+            </locale>
+
+            <locale name="en_GB">
+                <short>Show / hide Time Tracker Window</short>
+                <long>Keyboard shortcut for showing / hiding the Time Tracker window.</long>
+            </locale>
+
+            <locale name="eo">
+                <short>Montri / kaŝi fenestron de la tempo ŝanĝospurilo</short>
+                <long>Fulmoklavoj por montri / kaŝi la tempospurilan fenestron.</long>
+            </locale>
+
+            <locale name="es">
+                <short>Mostrar/ocultar la ventana del gestor de tiempo</short>
+                <long>Combinación de teclas para mostrar/ocultar la ventana del gestor de tiempo.</long>
+            </locale>
+
+            <locale name="et">
+                <short>Ajakasutuse jälgija akna näitamine või peitmine</short>
+                <long>Kiirklahv ajakasutuse jälgija akna näitamiseks või peitmiseks.</long>
+            </locale>
+
+            <locale name="eu">
+                <short>Erakutsi/Ezkutatu &apos;Denboraren jarraipena&apos;ren leihoa</short>
+                <long>Lasterbideak &apos;Denboraren jarraipena&apos;ren leihoa erakusteko/ezkutatzeko.</long>
+            </locale>
+
+            <locale name="fr">
+                <short>Afficher ou masquer la fenêtre du gestionnaire de temps</short>
+                <long>Raccourci clavier pour afficher ou masquer la fenêtre du gestionnaire de temps.</long>
+            </locale>
+
+            <locale name="gl">
+                <short>Mostrar/ocultar a xanela do xestor de tempo.</short>
+                <long>Atallo de teclado para mostrar/agochar a xanela do xestor de tempo.</long>
+            </locale>
+
+            <locale name="he">
+                <short>Show / hide Time Tracker Window</short>
+                <long>Keyboard shortcut for showing / hiding the Time Tracker window.</long>
+            </locale>
+
+            <locale name="hu">
+                <short>Időnyilvántartó ablakának megjelenítése/elrejtése.</short>
+                <long>Gyorsbillentyű az Időnyilvántartó ablakának megjelenítéséhez/elrejtéséhez.</long>
+            </locale>
+
+            <locale name="id">
+                <short>Menampilkan/menyembunyikan Jendela Pelacak Waktu</short>
+                <long>Tombol kombinasi pintasan untuk menampilkan/menyembunyikan jendela Pelacak Waktu.</long>
+            </locale>
+
+            <locale name="it">
+                <short>Mostra/Nasconde la finestra dell&apos;applicazione</short>
+                <long>Scorciatoia per mostrare/nascondere la finestra di Conteggio tempo.</long>
+            </locale>
+
+            <locale name="ja">
+                <short>タイムトラッカーのウィンドウの表示/非表示</short>
+                <long>タイムトラッカーのウィンドウ表示・非表示を切り替えるキーボードショートカットです。</long>
+            </locale>
+
+            <locale name="ko">
+                <short>시간 추적 창을 보이기 / 감추기</short>
+                <long>시간 추적 프로그램 창을 보이고 감추는 바로 가기 키.</long>
+            </locale>
+
+            <locale name="lt">
+                <short>Rodyti / slėpti laiko apskaitos langą</short>
+                <long>Spartusis klavišas, parodantis / paslepiantis laiko apskaitos langą.</long>
+            </locale>
+
+            <locale name="lv">
+                <short>Rādīt / slēpt laika uzskaites logu</short>
+                <long>Taustiņu kombinācija laika uzskaites loga rādīšanai / slēpšanai.</long>
+            </locale>
+
+            <locale name="mk">
+                <short>Покажи / скриј го прозорецот на следачот на време</short>
+                <long>Кратенка на тастатурата за прикажување / криење на прозорецот на следачот на време.</long>
+            </locale>
+
+            <locale name="nb">
+                <short>Vis / skjul vindu for tidsporing</short>
+                
+            </locale>
+
+            <locale name="or">
+                <short>ସମୟ ଅନୁସରଣ ୱିଣ୍ଡୋକୁ ଦର୍ଶାନ୍ତୁ / ଲୁଚାନ୍ତୁ</short>
+                
+            </locale>
+
+            <locale name="pa">
+                <short>ਟਾਈਮ ਟਰੈਕਰ ਵਿੰਡੋ ਵੇਖੋ / ਓਹਲੇ ਕਰੋ</short>
+                <long>ਟਾਈਮ ਟਰੈਕਰ ਵਿੰਡੋ ਵੇਖਣ /ਓਹਲੇ ਕਰਨ ਲਈ ਕੀਬੋਰਡ ਸ਼ਾਰਟਕੱਟ ਹੈ।</long>
+            </locale>
+
+            <locale name="pl">
+                <short>Wyświetlanie/ukrywanie okna zarządzania czasem</short>
+                <long>Skrót klawiszowy do wyświetlenia/ukrywania okna zarządzania czasem.</long>
+            </locale>
+
+            <locale name="pt">
+                <short>Apresentar / esconder a Janela de Registo de Horas.</short>
+                <long>Atalho de teclado para apresentar / esconder a janela do Registo de Horas.</long>
+            </locale>
+
+            <locale name="pt_BR">
+                <short>Mostra / oculta a janela do gestor de tempo</short>
+                <long>Atalho de teclado para mostrar / ocultar a janela do gestor de tempo.</long>
+            </locale>
+
+            <locale name="ro">
+                <short>Arată / ascunde fereastra de pontare</short>
+                <long>Combinație de taste pentru afișarea / ascunderea ferestrei de pontare.</long>
+            </locale>
+
+            <locale name="ru">
+                <short>Показывать или скрывать окно учёта времени.</short>
+                <long>Клавиатурное сокращение для отображения или скрытия окна учёта времени.</long>
+            </locale>
+
+            <locale name="sl">
+                <short>Pokaži / Skrij okno sledenja časa</short>
+                <long>Tipkovna bližnjica za skrivanje in prikaz okna sledenja času.</long>
+            </locale>
+
+            <locale name="sr">
+                <short>Прикажи / сакриј прозор Пратиоца времена</short>
+                <long>Пречица на тастатури за приказивање / сакривање прозора Пратиоца времена</long>
+            </locale>
+
+            <locale name="sr@latin">
+                <short>Prikaži / sakrij prozor Pratioca vremena</short>
+                <long>Prečica na tastaturi za prikazivanje / sakrivanje prozora Pratioca vremena</long>
+            </locale>
+
+            <locale name="sv">
+                <short>Visa / dölj Tidmätare-fönstret</short>
+                <long>Tangentbordsgenväg för att visa /dölja Tidmätare-fönstret.</long>
+            </locale>
+
+            <locale name="ta">
+                <short>நேரத் தடம் தேடல் சாளரத்தைக் காட்டு / மறை</short>
+                <long>நேரத் தடம் தேடல் சாளரத்தைக் காட்டுவதற்கான /மூடுவதற்கான விசைப் பலகைக் குறுக்கு வழி</long>
+            </locale>
+
+            <locale name="te">
+                <short>సమయ జాడక కిటికీని చూపు / దాచు</short>
+                <long>సమయ జాడక కిటికీ చూపుటకు / దాచుటకు కీబోర్డు లఘువు.</long>
+            </locale>
+
+            <locale name="tr">
+                <short>Zaman Takipçisi Penceresini Göster / Gizle</short>
+                <long>Zaman Takipçisi penceresini göstermek / gizlemek için klavye kısayolu.</long>
+            </locale>
+
+            <locale name="ug">
+                <short>ۋاقىت ئىزلىغۇچى(Time Tracker) كۆزنەكنى كۆرسەت/يوشۇر</short>
+                <long>ۋاقىت ئىزلىغۇچى(Time Tracker) كۆزنەكنى كۆرسىتىدىغان ياكى يوشۇرىدىغان ھەرپتاختا تېزلەتمىسى.</long>
+            </locale>
+
+            <locale name="uk">
+                <short>Показати / сховати вікно обліку за часом</short>
+                <long>Клавіатурне скорочення для показу / ховання вікна обліку за часом.</long>
+            </locale>
+
+            <locale name="zh_CN">
+                <short>显示/隐藏时间跟踪窗口</short>
+                <long>用于显示/隐藏时间跟踪窗口的快捷键。</long>
+            </locale>
+
+            <locale name="zh_HK">
+                <short>顯示或隱藏時間追蹤程式視窗</short>
+                <long>用來顯示或隱藏時間追蹤程式視窗的鍵盤捷徑鍵。</long>
+            </locale>
+
+            <locale name="zh_TW">
+                <short>顯示或隱藏時間追蹤程式視窗</short>
+                <long>用來顯示或隱藏時間追蹤程式視窗的鍵盤捷徑鍵。</long>
+            </locale>
+        </schema>
+        <schema>
+            <key>/schemas/desktop/gnome/keybindings/hamster/action</key>
+            <applyto>/desktop/gnome/keybindings/hamster/action</applyto>
+            <owner>hamster</owner>
+            <type>string</type>
+            <default>hamster toggle</default>
+            <locale name="C">
+                <short>Toggle hamster application window action</short>
+                <long>Command for toggling visibility of the hamster application window.</long>
+            </locale>
+
+            <locale name="af">
+                <short>Wissel hamster toepassing-venster</short>
+                <long>Bevel om die sigbaarheid van Hamster se toepassing-venster aan of af te skakel.</long>
+            </locale>
+
+            <locale name="as">
+                <short>hamster অনুপ্ৰয়োগ উইন্ডো কাৰ্য্যক অদল-বদল কৰা</short>
+                <long>hamster অনুপ্ৰয়োগ উইন্ডোৰ দৃশ্যমানতা অদল-বদল কৰিবৰ বাবে কমান্ড।</long>
+            </locale>
+
+            <locale name="be">
+                <short>Дзеянне пераключэння акна праграмы hamster</short>
+                <long>Загад для змянення бачнасці акна праграмы hamster.</long>
+            </locale>
+
+            <locale name="bg">
+                <short>Показване и скриване на главния прозорец на програмата Хамстер</short>
+                <long>Команда за показване и скриване на главния прозорец на програмата.</long>
+            </locale>
+
+            <locale name="ca">
+                <short>Acció per ocultar o mostrar la finestra de l&apos;aplicació Hamster</short>
+                <long>Ordre per ocultar o mostrar la finestra de l&apos;aplicació Hamster.</long>
+            </locale>
+
+            <locale name="ca@valencia">
+                <short>Acció per ocultar o mostrar la finestra de l&apos;aplicació Hamster</short>
+                <long>Orde per ocultar o mostrar la finestra de l&apos;aplicació Hamster.</long>
+            </locale>
+
+            <locale name="cs">
+                <short>Přepnout akci okna aplikace hamster</short>
+                <long>Příkaz pro přepínání viditelnosti okna aplikace hamster.</long>
+            </locale>
+
+            <locale name="da">
+                <short>Handling som slår hamster-programvinduet til eller fra</short>
+                <long>Kommando for at slå synligheden af hamster-programvinduet til eller fra.</long>
+            </locale>
+
+            <locale name="de">
+                <short>Aktion zum Ein- und Ausschalten der Sichtbarkeit des Anwendungsfensters von Hamster</short>
+                <long>Befehl zum Ein- und Ausschalten der Sichtbarkeit des Anwendungsfensters von Hamster.</long>
+            </locale>
+
+            <locale name="el">
+                <short>Ενέργεια εναλλαγής παραθύρου εφαρμογής hamster</short>
+                <long>Εντολή για εναλλαγή ορατότητας του παραθύρου της εφαρμογής hamster.</long>
+            </locale>
+
+            <locale name="en_CA">
+                <short>Toggle hamster application window action</short>
+                <long>Command for toggling visibility of the hamster application window.</long>
+            </locale>
+
+            <locale name="en_GB">
+                <short>Toggle hamster application window action</short>
+                <long>Command for toggling visibility of the hamster application window.</long>
+            </locale>
+
+            <locale name="eo">
+                <short>Baskuligi hamster-aplikofenestron agadon</short>
+                <long>Komando baskuligi videblecon de la hamster aplikaĵfenestro.</long>
+            </locale>
+
+            <locale name="es">
+                <short>Conmutar la acción de la ventana de aplicación Hamster</short>
+                <long>Comando para conmutar la visibilidad de la ventana de la aplicación Hamster.</long>
+            </locale>
+
+            <locale name="et">
+                <short>Hamstri rakendusakna tegevuse sisse- ja väljalülitamine</short>
+                <long>Hamstri rakendusakna nähtavuse sisse- ja väljalülitamise käsk.</long>
+            </locale>
+
+            <locale name="eu">
+                <short>Txandakatu hamster aplikazioaren leihoaren ekintza</short>
+                <long>Hamster aplikazioaren leihoaren ikusgaitasuna txandakatzeko komandoa.</long>
+            </locale>
+
+            <locale name="fr">
+                <short>Action pour afficher ou masquer la fenêtre de l&apos;application de Hamster</short>
+                <long>Commande pour afficher ou masquer la fenêtre de l&apos;application de Hamster.</long>
+            </locale>
+
+            <locale name="gl">
+                <short>Trocar a acción da xanela do aplicativo Hamster</short>
+                <long>Orde para trocar a visibilidade da xanela do aplicativo Hamster.</long>
+            </locale>
+
+            <locale name="gu">
+                <short>ટૉગલ હેમસ્ટર કાર્યક્રમ વિન્ડો ક્રિયા</short>
+                
+            </locale>
+
+            <locale name="he">
+                <short>Toggle hamster application window action</short>
+                <long>Command for toggling visibility of the hamster application window.</long>
+            </locale>
+
+            <locale name="hu">
+                <short>A Hamster alkalmazás ablakának átváltása művelet</short>
+                <long>A Hamster alkalmazásablak láthatóságának átváltására szolgáló parancs.</long>
+            </locale>
+
+            <locale name="id">
+                <short>Jungkitkan aksi jendela aplikasi hamster</short>
+                <long>Perintah untuk menjungkit kenampakan jendela aplikasi hamster.</long>
+            </locale>
+
+            <locale name="it">
+                <short>Abilita/Disabilita l&apos;azione sulla finestra dell&apos;applicazione</short>
+                <long>Comando per mostrare/nascondere la finestra dell&apos;applicazione.</long>
+            </locale>
+
+            <locale name="ja">
+                <short>ハムスターアプリケーションウィンドウのアクションをOn/Offします。</short>
+                <long>ハムスターアプリケーションウィンドウの表示を切り替えるコマンド。</long>
+            </locale>
+
+            <locale name="ko">
+                <short>햄스터 프로그램 창 토글 동작</short>
+                <long>햄스터 프로그램 창을 보일지 말지 토글하는 명령.</long>
+            </locale>
+
+            <locale name="lt">
+                <short>Perjungti programos Hamster lango veiksmą</short>
+                <long>Komanda, perjungianti Hamster programos lango matomumą.</long>
+            </locale>
+
+            <locale name="lv">
+                <short>Pārslēgt hamster lietotnes loga darbību</short>
+                <long>Komanda, ar kuru pārslēdz hamster lietotnes loga redzamību.</long>
+            </locale>
+
+            <locale name="mk">
+                <short>Вклучи/исклучи го дејството на прозорецот на hamster</short>
+                <long>Команда за менување на видливоста на прозорецот на апликацијата hamster.</long>
+            </locale>
+
+            <locale name="or">
+                
+                <long>hamster ପ୍ରୟୋଗ ୱିଣ୍ଡୋର ଦର୍ଶନକୁ ଆଗପଛ କରିବା ପାଇଁ ନିର୍ଦ୍ଦେଶ।</long>
+            </locale>
+
+            <locale name="pa">
+                <short>ਹਮਸਟਰ ਐਪਲੀਕੇਸ਼ਨ ਵਿੰਡੋ ਕਾਰਵਾਈ ਬਦਲੋ</short>
+                <long>ਹਮਸਟਰ ਐਪਲੀਕੇਸ਼ਨ ਵਿੰਡੋ ਦੀ ਦਿੱਖ ਬਦਲਣ ਵਾਲੀ ਕਮਾਂਡ ਹੈ।</long>
+            </locale>
+
+            <locale name="pl">
+                <short>Przełączenie czynności okna programu Hamster</short>
+                <long>Polecenie do przełącznika widoczności okna programu Hamster.</long>
+            </locale>
+
+            <locale name="pt">
+                <short>Alternar a acção da janela da aplicação hamster</short>
+                <long>Comando para alternar a visibilidade da janela da aplicação hamster.</long>
+            </locale>
+
+            <locale name="pt_BR">
+                <short>Alterna a ação da janela do aplicativo hamster</short>
+                <long>Comando para alternar a visibilidade da janela do aplicativo hamster.</long>
+            </locale>
+
+            <locale name="ro">
+                <short>Acțiune comutare fereastră aplicație hamster</short>
+                <long>Comandă pentru comutarea vizibilității ferestrei aplicației hamster.</long>
+            </locale>
+
+            <locale name="ru">
+                <short>Переключить окно приложения hamster</short>
+                <long>Команда переключения окна приложения hamster.</long>
+            </locale>
+
+            <locale name="sl">
+                <short>Dejanje preklopa okna programa Hamster</short>
+                <long>Ukaz za preklapljanje vidnosti okna programa Hamster.</long>
+            </locale>
+
+            <locale name="sr">
+                <short>Акција промене видљивости главног прозора Вредног хрчка</short>
+                <long>Наредба за промену видљивости главног прозора Вредног хрчка.</long>
+            </locale>
+
+            <locale name="sr@latin">
+                <short>Akcija promene vidljivosti glavnog prozora Vrednog hrčka</short>
+                <long>Naredba za promenu vidljivosti glavnog prozora Vrednog hrčka.</long>
+            </locale>
+
+            <locale name="sv">
+                <short>Växla fönsteråtgärd för hamster-programmet</short>
+                <long>Kommando för att växla fönstersynlighet för hamster-programmet.</long>
+            </locale>
+
+            <locale name="ta">
+                <short>ஹாம்ஸ்டர் பயன்பாட்டு சாளர செயலை நிலை மாற்றுக</short>
+                <long>ஹாம்ஸ்டர் பயன்பாட்டு சாளரத்தின் வெளிப்பாட்டை நிலை மாற்ற கட்டளை</long>
+            </locale>
+
+            <locale name="te">
+                <short>హామ్‌స్టర్ అనువర్తన కిటికీ చూపి/దాచే చర్య</short>
+                <long>హామ్‌స్టర్ అనువర్తన కిటికీ దృశ్యత మార్చే ఆదేశము.</long>
+            </locale>
+
+            <locale name="ug">
+                <short>hamster پروگرامما كۆزنىكىنى مەشغۇلاتىنى ئالماشتۇر</short>
+                <long>hamster پروگرامما كۆزنىكىنىڭ كۆرۈنۈشچانلىقىنى ئالماشتۇرۇش بۇيرۇقى.</long>
+            </locale>
+
+            <locale name="uk">
+                <short>Перемкнути дії вікна програми</short>
+                <long>Команда для перемикання видимості вікна програми.</long>
+            </locale>
+
+            <locale name="zh_CN">
+                <short>切换 hamster 应用程序窗口动作</short>
+                <long>切换 hamster 应用程序窗口的可见性的命令。</long>
+            </locale>
+
+            <locale name="zh_HK">
+                <short>切換 hamster 應用程式視窗動作</short>
+                <long>切換 hamster 應用程式視窗可見與否的指令。</long>
+            </locale>
+
+            <locale name="zh_TW">
+                <short>切換 hamster 應用程式視窗動作</short>
+                <long>切換 hamster 應用程式視窗可見與否的指令。</long>
+            </locale>
+        </schema>
+        <schema>
+            <key>/schemas/desktop/gnome/keybindings/hamster/name</key>
+            <applyto>/desktop/gnome/keybindings/hamster/name</applyto>
+            <owner>hamster</owner>
+            <type>string</type>
+            <default>Toggle hamster application window</default>
+            <locale name="C">
+                <short>Toggle hamster application window</short>
+                <long>Toggle visibility of the hamster application window.</long>
+            </locale>
+
+            <locale name="af">
+                <short>Wissel hamster toepassing-venster</short>
+                <long>Wissel sigbaarheid van hamster se toepassing-venster.</long>
+            </locale>
+
+            <locale name="as">
+                <short>hamster অনুপ্ৰয়োগ উইন্ডোক অদল-বদল কৰা</short>
+                <long>hamster অনুপ্ৰয়োগ উইন্ডোৰ দৃশ্যমানতাক অদল-বদল কৰা।</long>
+            </locale>
+
+            <locale name="be">
+                <short>Пераключэнне акна праграмы hamster</short>
+                <long>Пераключыць бачнасць акна праграмы hamster.</long>
+            </locale>
+
+            <locale name="bg">
+                <short>Показване и скриване на прозореца на програмата</short>
+                <long>Показване и скриване на главния прозорец на програмата Хамстер</long>
+            </locale>
+
+            <locale name="ca">
+                <short>Oculta o mostra la finestra de l&apos;aplicació Hamster</short>
+                <long>Oculta o mostra la finestra de l&apos;aplicació Hamster.</long>
+            </locale>
+
+            <locale name="ca@valencia">
+                <short>Oculta o mostra la finestra de l&apos;aplicació Hamster</short>
+                <long>Oculta o mostra la finestra de l&apos;aplicació Hamster.</long>
+            </locale>
+
+            <locale name="cs">
+                <short>Přepnout okno aplikace hamster</short>
+                <long>Přepnout viditelnost okna aplikace hamster.</long>
+            </locale>
+
+            <locale name="da">
+                <short>Slå hamster-programvinduet til eller fra</short>
+                <long>Slå synligheden af hamster-programvinduet til eller fra.</long>
+            </locale>
+
+            <locale name="de">
+                <short>Hamster-Anwendungsfenster sichtbar/unsichtbar</short>
+                <long>Die Sichtbarkeit des Hamster-Anwendungsfensters ein-/ausschalten.</long>
+            </locale>
+
+            <locale name="el">
+                <short>Εναλλαγή παραθύρου εφαρμογής hamster</short>
+                <long>Εναλλαγή ορατότητας παραθύρου της εφαρμογής hamster.</long>
+            </locale>
+
+            <locale name="en_CA">
+                <short>Toggle hamster application window</short>
+                <long>Toggle visibility of the hamster application window.</long>
+            </locale>
+
+            <locale name="en_GB">
+                <short>Toggle hamster application window</short>
+                <long>Toggle visibility of the hamster application window.</long>
+            </locale>
+
+            <locale name="eo">
+                <short>Baskuligi hamster-aplikofenestron</short>
+                <long>Baskuligi videblecon de la hamster-aplikofenestro.</long>
+            </locale>
+
+            <locale name="es">
+                <short>Conmutar la ventana de la aplicación Hamster</short>
+                <long>Conmutar la visibilidad de la ventana de aplicación Hamster.</long>
+            </locale>
+
+            <locale name="et">
+                <short>Hamstri rakendusakna sisse- ja väljalülitamine</short>
+                <long>Hamstri rakendusakna nähtavuse sisse- ja väljalülitamine</long>
+            </locale>
+
+            <locale name="eu">
+                <short>Txandakatu hamster aplikazioaren leihoa</short>
+                <long>Txandakatu hamster aplikazioaren leihoaren ikusgaitasuna.</long>
+            </locale>
+
+            <locale name="fr">
+                <short>Afficher ou masquer la fenêtre de l&apos;application de Hamster</short>
+                <long>Afficher ou masquer la fenêtre de l&apos;application de Hamster.</long>
+            </locale>
+
+            <locale name="gl">
+                <short>Trocar a xanela do aplicativo Hamster</short>
+                <long>Trocar a visibilidade da xanela do aplicativo Hamster</long>
+            </locale>
+
+            <locale name="gu">
+                <short>ટૉગલ હેમસ્ટર કાર્યક્રમ વિન્ડો</short>
+                <long>હેમસ્ટર કાર્યક્રમ વિન્ડોની ટૉગલ દૃશ્યતા</long>
+            </locale>
+
+            <locale name="he">
+                <short>Toggle hamster application window</short>
+                <long>Toggle visibility of the hamster application window.</long>
+            </locale>
+
+            <locale name="hu">
+                <short>A Hamster alkalmazás ablakának átváltása</short>
+                <long>A Hamster alkalmazás ablakának láthatóságának átváltása.</long>
+            </locale>
+
+            <locale name="id">
+                <short>Jungkitkan jendela aplikasi hamster</short>
+                <long>Jungkitkan kenampakan jendela aplikasi hamster.</long>
+            </locale>
+
+            <locale name="it">
+                <short>Mostra/Nasconde la finestra dell&apos;applicazione</short>
+                <long>Mostra/Nasconde la finestra dell&apos;applicazione.</long>
+            </locale>
+
+            <locale name="ja">
+                <short>ハムスターアプリケーションウィンドウをOn/Offします。</short>
+                <long>ハムスターアプリケーションウィンドウの表示をOn/Offします。</long>
+            </locale>
+
+            <locale name="ko">
+                <short>햄스터 프로그램 창 토글</short>
+                <long>햄스터 프로그램 창을 표시할지 토글합니다.</long>
+            </locale>
+
+            <locale name="lt">
+                <short>Perjungti programos Hamster langą</short>
+                <long>Komanda, perjungianti Hamster programos lango matomumą.</long>
+            </locale>
+
+            <locale name="lv">
+                <short>Pārslēgt hamster lietotnes logu</short>
+                <long>Pārslēgt hamster lietotnes loga redzamību.</long>
+            </locale>
+
+            <locale name="mk">
+                <short>Вклучи/исклучи го прозорецот на hamster</short>
+                <long>Вклучи/исклучи видливост на прозорецот на апликацијата hamster.</long>
+            </locale>
+
+            <locale name="nb">
+                <short>Slå av/på programvindu for hamster</short>
+                <long>Slå av/på synlighet for hamster programvinduet.</long>
+            </locale>
+
+            <locale name="or">
+                <short>hamster ପ୍ରୟୋଗ ୱିଣ୍ଡୋକୁ ହଲାନ୍ତୁ</short>
+                
+            </locale>
+
+            <locale name="pa">
+                <short>ਹਮਸਟਰ ਐਪਲੀਕੇਸ਼ਨ ਵਿੰਡੋ ਬਦਲੋ</short>
+                <long>ਹਮਸਟਰ ਐਪਲੀਕੇਸ਼ਨ ਵਿੰਡੋ ਦੀ ਦਿੱਖ ਬਦਲੋ।</long>
+            </locale>
+
+            <locale name="pl">
+                <short>Przełączenie okna programu Hamster</short>
+                <long>Przełączenie widoczności okna programu Hamster.</long>
+            </locale>
+
+            <locale name="pt">
+                <short>Alternar a janela da aplicação hamster</short>
+                <long>Alternar a visibilidade da janela da aplicação hamster.</long>
+            </locale>
+
+            <locale name="pt_BR">
+                <short>Alterna a janela do aplicativo hamster</short>
+                <long>Alterna a visibilidade da janela do aplicativo hamster</long>
+            </locale>
+
+            <locale name="ro">
+                <short>Comută fereastra aplicației hamster</short>
+                <long>Comută vizibilitatea ferestrei aplicației hamster.</long>
+            </locale>
+
+            <locale name="ru">
+                <short>Переключить окно приложения hamster</short>
+                <long>Переключить окно приложения hamster.</long>
+            </locale>
+
+            <locale name="sl">
+                <short>Preklopi okno programa Hamster</short>
+                <long>Preklapljanje vidnosti okna programa Hamster.</long>
+            </locale>
+
+            <locale name="sr">
+                <short>Промена видљивости главног прозора Вредног хрчка</short>
+                <long>Промени видљивост главног прозора Вредног хрчка</long>
+            </locale>
+
+            <locale name="sr@latin">
+                <short>Promena vidljivosti glavnog prozora Vrednog hrčka</short>
+                <long>Promeni vidljivost glavnog prozora Vrednog hrčka</long>
+            </locale>
+
+            <locale name="sv">
+                <short>Växla programfönstret för hamster</short>
+                <long>Växla fönstersynlighet för hamster-programmet.</long>
+            </locale>
+
+            <locale name="ta">
+                <short>ஹாம்ஸ்டர் பயன்பாட்டு சாளரத்தை நிலை மாற்றுக</short>
+                <long>ஹாம்ஸ்டர் பயன்பாட்டு சாளரத்தின் வெளிப்பாட்டை நிலை மாற்றுக</long>
+            </locale>
+
+            <locale name="te">
+                <short>హామ్‌స్టర్ అనువర్తన కిటికీని చూపు/దాచు</short>
+                <long>హామ్‌స్టర్ అనువర్తన కిటికీ దృశ్యత మార్చు.</long>
+            </locale>
+
+            <locale name="ug">
+                <short>hamster پروگرامما كۆزنىكىنى ئالماشتۇر</short>
+                <long>hamster پروگرامما كۆزنىكىنىڭ كۆرۈنۈشچانلىقىنى ئالماشتۇرىدۇ.</long>
+            </locale>
+
+            <locale name="uk">
+                <short>Перемкнути вікно програми</short>
+                <long>Перемкнути видимість вікна програми.</long>
+            </locale>
+
+            <locale name="zh_CN">
+                <short>切换 hamster 应用程序窗口</short>
+                <long>切换 hamster 应用程序窗口的可见性。</long>
+            </locale>
+
+            <locale name="zh_HK">
+                <short>切換 hamster 應用程式視窗</short>
+                <long>切換 hamster 應用程式視窗可見與否。</long>
+            </locale>
+
+            <locale name="zh_TW">
+                <short>切換 hamster 應用程式視窗</short>
+                <long>切換 hamster 應用程式視窗可見與否。</long>
+            </locale>
+        </schema>
+    </schemalist>
+</gconfschemafile>
