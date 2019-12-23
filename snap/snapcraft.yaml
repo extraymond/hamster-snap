@@ -33,7 +33,6 @@ slots:
 
 parts:
   hamster:
-    common-id: org.gnome.Hamster
     stage-packages:
       - gettext
       - intltool
@@ -62,6 +61,7 @@ parts:
 
 apps:
   hamster-snap:
+    common-id: org.gnome.Hamster
     command: usr/bin/launcher
     extensions: [gnome-3-28]
     desktop: usr/share/applications/launcher.desktop
