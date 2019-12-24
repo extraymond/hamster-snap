@@ -43,9 +43,7 @@ parts:
       - gconf2
       - gir1.2-gconf-2.0
       - dconf-cli
-    # source: https://github.com/projecthamster/hamster.git
-    source: https://github.com/bgamari/hamster.git
-    source-branch: gsettings
+    source: https://github.com/projecthamster/hamster.git
     plugin: waf
     parse-info: [ usr/share/appdata/hamster.metainfo.xml ]
 
