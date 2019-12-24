@@ -6,7 +6,7 @@ adopt-info: hamster
 # description: |
 #   Hamster is time tracking for individuals. It helps you to keep track of how much time you have spent during the day on activities you choose to track.
 
-architectures: amd64
+architectures: [ amd64 ]
 
 grade: devel # must be 'stable' to release into candidate/stable channels
 confinement: strict # use 'strict' once you have the right plugs and slots
