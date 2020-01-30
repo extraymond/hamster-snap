@@ -45,7 +45,7 @@ parts:
       - dconf-cli
     source: https://github.com/projecthamster/hamster.git
     plugin: waf
-    parse-info: [ usr/share/appdata/hamster.metainfo.xml ]
+    parse-info: [ usr/share/metainfo/hamster.metainfo.xml ]
 
   launcher:
     after: [ hamster ]
