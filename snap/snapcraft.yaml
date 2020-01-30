@@ -56,7 +56,7 @@ parts:
       hamster.desktop: usr/share/applications/launcher.desktop
 
 apps:
-  hamster:
+  hamster-snap:
     common-id: hamster
     command: usr/bin/launcher
     extensions: [gnome-3-28]

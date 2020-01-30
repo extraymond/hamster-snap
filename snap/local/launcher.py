@@ -5,8 +5,7 @@ import os
 from subprocess import Popen
 import asyncio
 
-services = ['/usr/lib/hamster/hamster-service',
-            '/usr/lib/hamster/hamster-windows-service']
+services = ['/usr/lib/hamster/hamster-service']
 
 program = '/usr/bin/hamster'
 
