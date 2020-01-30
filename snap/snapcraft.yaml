@@ -1,4 +1,4 @@
-name: hamster-snap # you probably want to 'snapcraft register <name>'
+name: hamster # you probably want to 'snapcraft register <name>'
 base: core18 # the base snap is the execution environment for this snap
 version: git
 adopt-info: hamster
@@ -47,7 +47,7 @@ parts:
     plugin: waf
     parse-info: [ usr/share/appdata/hamster.metainfo.xml ]
 
-  lancher:
+  launcher:
     after: [ hamster ]
     plugin: dump
     source: snap/local
@@ -56,7 +56,7 @@ parts:
       hamster.desktop: usr/share/applications/launcher.desktop
 
 apps:
-  hamster-snap:
+  hamster:
     common-id: hamster
     command: usr/bin/launcher
     extensions: [gnome-3-28]
