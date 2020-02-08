@@ -53,7 +53,7 @@ parts:
     source: snap/local
     organize:
       launcher.py: usr/bin/launcher
-      hamster.desktop: usr/share/applications/launcher.desktop
+      org.gnome.Hamster.GUI.desktop: usr/share/applications/launcher.desktop
 
 apps:
   hamster-snap:
