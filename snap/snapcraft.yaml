@@ -1,7 +1,7 @@
 name: hamster-snap # you probably want to 'snapcraft register <name>'
 base: core18 # the base snap is the execution environment for this snap
 version: git
-adopt-info: hamster
+adopt-info: org.gnome.Hamster.GUI  # .metainfo.xml
 # summary: Hamster time tracker snap # 79 char long summary
 # description: |
 #   Hamster is time tracking for individuals. It helps you to keep track of how much time you have spent during the day on activities you choose to track.
