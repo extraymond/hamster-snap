@@ -24,6 +24,10 @@ slots:
     interface: dbus
     bus: session
     name: org.gnome.Hamster
+  dbus-gui-service:
+    interface: dbus
+    bus: session
+    name: org.gnome.Hamster.GUI
   dbus-windows-service:
     interface: dbus
     bus: session
@@ -67,4 +71,5 @@ apps:
       - system-observe
     slots:
       - dbus-service
+      - dbus-gui-service
       - dbus-windows-service
