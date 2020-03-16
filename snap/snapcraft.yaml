@@ -1,6 +1,6 @@
 name: hamster-snap # you probably want to 'snapcraft register <name>'
 base: core18 # the base snap is the execution environment for this snap
-version: git
+version: v3.0.1
 adopt-info: hamster # look for parse-info in the hamster part
 # summary: Hamster time tracker snap # 79 char long summary
 # description: |
