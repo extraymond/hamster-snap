@@ -19,6 +19,8 @@ layout:
   /usr/lib/python3/dist-packages:
     bind: $SNAP/usr/lib/python3/dist-packages
 
+compression: lzo
+
 slots:
   dbus-service:
     interface: dbus
